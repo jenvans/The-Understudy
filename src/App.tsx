@@ -1,11 +1,14 @@
-import { useState, useEffect } from 'react';
-import type { DietaryFilter, SortOption } from './types';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import type { DietaryFilter, SortOption, Substitute } from './types';
 import { useSubstitutions } from './hooks/useSubstitutions';
+import { fetchAISubstitutions } from './api/gemini';
 import SearchBar from './components/SearchBar';
 import FilterPills from './components/FilterPills';
 import ActiveFilterTags from './components/ActiveFilterTags';
 import ResultCard from './components/ResultCard';
 import EmptyState from './components/EmptyState';
+import AISearchPrompt from './components/AISearchPrompt';
+import SkeletonCard from './components/SkeletonCard';
 
 function useDarkMode() {
   const [dark, setDark] = useState(() => {
@@ -34,7 +37,52 @@ export default function App() {
   const [filters, setFilters] = useState<DietaryFilter[]>([]);
   const [sort, setSort] = useState<SortOption>('best-match');
 
+  // AI state
+  const [aiResults, setAiResults] = useState<Substitute[]>([]);
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiError, setAiError] = useState<string | null>(null);
+  const [aiSearchedTerm, setAiSearchedTerm] = useState('');
+  const abortRef = useRef<AbortController | null>(null);
+
   const result = useSubstitutions(search, filters, sort);
+
+  // Reset AI results when search changes
+  useEffect(() => {
+    setAiResults([]);
+    setAiError(null);
+    setAiSearchedTerm('');
+    if (abortRef.current) {
+      abortRef.current.abort();
+      abortRef.current = null;
+    }
+  }, [search]);
+
+  const handleAISearch = useCallback(async () => {
+    const term = search.trim();
+    if (!term) return;
+
+    // Abort any in-flight request
+    if (abortRef.current) abortRef.current.abort();
+    const controller = new AbortController();
+    abortRef.current = controller;
+
+    setAiLoading(true);
+    setAiError(null);
+    setAiResults([]);
+
+    try {
+      const subs = await fetchAISubstitutions(term, filters, controller.signal);
+      // Tag each result as AI-sourced
+      const tagged = subs.map((s) => ({ ...s, source: 'ai' as const }));
+      setAiResults(tagged);
+      setAiSearchedTerm(term);
+    } catch (err: unknown) {
+      if (err instanceof DOMException && err.name === 'AbortError') return;
+      setAiError(err instanceof Error ? err.message : 'AI search failed — try again');
+    } finally {
+      setAiLoading(false);
+    }
+  }, [search, filters]);
 
   const toggleFilter = (f: DietaryFilter) => {
     setFilters((prev) =>
@@ -50,6 +98,8 @@ export default function App() {
   const hasSearch = search.trim().length > 0;
   const hasResults = result.substitutes.length > 0;
   const hasMessage = !!result.message;
+  const hasAiResults = aiResults.length > 0 && aiSearchedTerm === search.trim();
+  const showAiPrompt = hasSearch && !hasResults && !aiLoading && !hasAiResults;
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-[#1a1a1a] transition-colors">
@@ -146,8 +196,53 @@ export default function App() {
             <EmptyState type="initial" />
           )}
 
-          {!hasResults && hasSearch && hasMessage && (
+          {!hasResults && hasSearch && hasMessage && !hasAiResults && (
             <EmptyState type="no-results" message={result.message} />
+          )}
+
+          {/* AI search prompt — shown when local has no results */}
+          {showAiPrompt && (
+            <AISearchPrompt
+              searchTerm={search.trim()}
+              onSearch={handleAISearch}
+              isLoading={aiLoading}
+              error={aiError}
+            />
+          )}
+
+          {/* AI loading skeletons */}
+          {aiLoading && (
+            <div className="grid gap-4 mt-4">
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+            </div>
+          )}
+
+          {/* AI results */}
+          {hasAiResults && (
+            <div className="mt-4 space-y-4">
+              <div className="flex items-center gap-2 px-1">
+                <span className="inline-flex items-center gap-1.5 text-sm font-medium text-purple-600 dark:text-purple-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                  </svg>
+                  AI-powered results
+                </span>
+                <span className="text-xs text-gray-400 dark:text-gray-500">
+                  — results may not be 100% accurate
+                </span>
+              </div>
+              <div className="grid gap-4">
+                {aiResults.map((sub, index) => (
+                  <ResultCard
+                    key={`ai-${sub.name}-${index}`}
+                    original={search.trim()}
+                    substitute={sub}
+                  />
+                ))}
+              </div>
+            </div>
           )}
         </div>
       </main>

@@ -1,4 +1,5 @@
 import type { Substitute } from '../types';
+import SourceBadge from './SourceBadge';
 
 interface ResultCardProps {
   original: string;
@@ -25,11 +26,14 @@ export default function ResultCard({ original, substitute }: ResultCardProps) {
                  p-5 transition-shadow hover:shadow-sm"
     >
       {/* Heading: Original → Substitute */}
-      <h3 className="text-base font-semibold text-gray-900 dark:text-gray-100 mb-3">
-        <span className="capitalize">{original}</span>
-        <span className="mx-2 text-gray-400 dark:text-gray-500">→</span>
-        <span>{substitute.name}</span>
-      </h3>
+      <div className="flex items-start justify-between gap-2 mb-3">
+        <h3 className="text-base font-semibold text-gray-900 dark:text-gray-100">
+          <span className="capitalize">{original}</span>
+          <span className="mx-2 text-gray-400 dark:text-gray-500">→</span>
+          <span>{substitute.name}</span>
+        </h3>
+        {substitute.source === 'ai' && <SourceBadge />}
+      </div>
 
       {/* Ratio badge */}
       <div className="flex flex-wrap items-center gap-2 mb-3">

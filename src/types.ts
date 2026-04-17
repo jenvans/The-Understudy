@@ -1,9 +1,12 @@
+export type Source = 'local' | 'ai';
+
 export interface Substitute {
   name: string;
   ratio: string;
   tags: string[];
   notes: string;
   bestFor: string[];
+  source?: Source;
 }
 
 export interface SubstitutionEntry {
