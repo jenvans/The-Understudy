@@ -66,9 +66,7 @@ Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
       if (response.status === 400) {
         return res.status(502).json({ error: 'API key issue — check Vercel environment variables' });
       }
-      // Include first 200 chars of Google's error so we can debug
-      const snippet = errBody.slice(0, 200);
-      return res.status(502).json({ error: `AI service error (${response.status}): ${snippet}` });
+      return res.status(502).json({ error: 'AI service is temporarily unavailable — try again shortly' });
     }
 
     const data = await response.json();
@@ -91,9 +89,8 @@ Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
     }
 
     return res.status(200).json({ substitutes });
-  } catch (err: any) {
+  } catch (err) {
     console.error('Gemini handler error:', err);
-    const msg = err instanceof Error ? err.message : String(err);
-    return res.status(500).json({ error: `AI error: ${msg.slice(0, 300)}` });
+    return res.status(500).json({ error: 'Failed to get AI substitutions — try again' });
   }
 }
