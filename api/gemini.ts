@@ -83,8 +83,9 @@ Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
     }
 
     return res.status(200).json({ substitutes });
-  } catch (err) {
+  } catch (err: any) {
     console.error('Gemini handler error:', err);
-    return res.status(500).json({ error: 'Failed to get AI substitutions' });
+    const msg = err instanceof Error ? err.message : String(err);
+    return res.status(500).json({ error: `AI error: ${msg.slice(0, 300)}` });
   }
 }
