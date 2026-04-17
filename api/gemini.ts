@@ -1,6 +1,4 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { generateText } from 'ai';
-import { createGoogleGenerativeAI } from '@ai-sdk/google';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Only allow POST
@@ -17,12 +15,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Missing searchTerm' });
   }
 
-  const key = process.env.GOOGLE_GENERATIVE_AI_API_KEY;
+  const key = process.env.GEMINI_API_KEY;
   if (!key) {
     return res.status(500).json({ error: 'API key not configured' });
   }
-
-  const google = createGoogleGenerativeAI({ apiKey: key });
 
   const dietaryNote =
     filters && filters.length > 0
@@ -44,12 +40,29 @@ Return ONLY a valid JSON array (no markdown fences, no explanation, no extra tex
 Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
 
   try {
-    const { text } = await generateText({
-      model: google('gemini-2.0-flash'),
-      prompt,
-      temperature: 0.3,
-      maxTokens: 1024,
-    });
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            temperature: 0.3,
+            maxOutputTokens: 1024,
+          },
+        }),
+      },
+    );
+
+    if (!response.ok) {
+      const errBody = await response.text();
+      console.error('Gemini API error:', response.status, errBody);
+      return res.status(502).json({ error: 'AI service unavailable — try again shortly' });
+    }
+
+    const data = await response.json();
+    const text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
 
     // Strip markdown fences if present
     const cleaned = text.replace(/```json\s*/gi, '').replace(/```/g, '').trim();
@@ -62,7 +75,7 @@ Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
 
     return res.status(200).json({ substitutes });
   } catch (err) {
-    console.error('AI handler error:', err);
+    console.error('Gemini handler error:', err);
     return res.status(500).json({ error: 'Failed to get AI substitutions' });
   }
 }
