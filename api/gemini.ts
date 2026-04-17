@@ -41,7 +41,7 @@ Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
 
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key=${key}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -65,7 +65,9 @@ Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
       if (response.status === 400) {
         return res.status(502).json({ error: 'API key issue — check Vercel environment variables' });
       }
-      return res.status(502).json({ error: `AI service error (${response.status}) — try again shortly` });
+      // Include first 200 chars of Google's error so we can debug
+      const snippet = errBody.slice(0, 200);
+      return res.status(502).json({ error: `AI service error (${response.status}): ${snippet}` });
     }
 
     const data = await response.json();
