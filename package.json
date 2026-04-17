@@ -19,6 +19,8 @@
     "vite": "^8.0.4"
   },
   "dependencies": {
+    "@ai-sdk/google": "^3.0.64",
+    "ai": "^6.0.168",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   }
