@@ -49,7 +49,8 @@ Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
           contents: [{ parts: [{ text: prompt }] }],
           generationConfig: {
             temperature: 0.3,
-            maxOutputTokens: 1024,
+            maxOutputTokens: 4096,
+            responseMimeType: 'application/json',
           },
         }),
       },
@@ -76,7 +77,14 @@ Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
     // Strip markdown fences if present
     const cleaned = text.replace(/```json\s*/gi, '').replace(/```/g, '').trim();
 
-    const substitutes = JSON.parse(cleaned);
+    let substitutes: any;
+    try {
+      substitutes = JSON.parse(cleaned);
+    } catch {
+      // If JSON is truncated, try to salvage by closing the array
+      const salvaged = cleaned.replace(/,\s*$/, '') + ']';
+      substitutes = JSON.parse(salvaged);
+    }
 
     if (!Array.isArray(substitutes)) {
       return res.status(502).json({ error: 'Unexpected AI response format' });
