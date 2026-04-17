@@ -58,7 +58,14 @@ Return 3-5 substitutes. Be accurate with ratios and dietary tags.`;
     if (!response.ok) {
       const errBody = await response.text();
       console.error('Gemini API error:', response.status, errBody);
-      return res.status(502).json({ error: 'AI service unavailable — try again shortly' });
+
+      if (response.status === 429) {
+        return res.status(429).json({ error: 'Rate limit reached — please wait a minute and try again' });
+      }
+      if (response.status === 400) {
+        return res.status(502).json({ error: 'API key issue — check Vercel environment variables' });
+      }
+      return res.status(502).json({ error: `AI service error (${response.status}) — try again shortly` });
     }
 
     const data = await response.json();
