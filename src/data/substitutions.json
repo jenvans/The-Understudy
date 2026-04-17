@@ -1,0 +1,2689 @@
+[
+  {
+    "original": "butter",
+    "substitutes": [
+      {
+        "name": "Coconut oil",
+        "ratio": "3/4 cup per 1 cup",
+        "tags": ["dairy-free", "vegan"],
+        "notes": "Adds mild coconut flavor — works best in baked goods",
+        "bestFor": ["baking", "sautéing"]
+      },
+      {
+        "name": "Applesauce",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "low-fat"],
+        "notes": "Reduces fat and adds moisture — ideal for muffins and quick breads",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Olive oil",
+        "ratio": "3/4 cup per 1 cup",
+        "tags": ["dairy-free", "vegan"],
+        "notes": "Best in savory dishes; may alter flavor in sweets",
+        "bestFor": ["sautéing", "roasting"]
+      },
+      {
+        "name": "Greek yogurt",
+        "ratio": "1:1",
+        "tags": ["low-fat"],
+        "notes": "Adds protein and moisture with tangy flavor",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Avocado",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "low-fat"],
+        "notes": "Creamy texture replacement; works great in brownies and chocolate bakes",
+        "bestFor": ["baking"]
+      }
+    ]
+  },
+  {
+    "original": "eggs",
+    "substitutes": [
+      {
+        "name": "Flax egg (1 tbsp ground flax + 3 tbsp water)",
+        "ratio": "1 flax egg per 1 egg",
+        "tags": ["vegan", "egg-free", "dairy-free"],
+        "notes": "Let sit 5 minutes to gel — best as a binder",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Chia egg (1 tbsp chia seeds + 3 tbsp water)",
+        "ratio": "1 chia egg per 1 egg",
+        "tags": ["vegan", "egg-free", "dairy-free"],
+        "notes": "Works like flax eggs; adds slight crunch if not finely ground",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Mashed banana",
+        "ratio": "1/4 cup per 1 egg",
+        "tags": ["vegan", "egg-free", "dairy-free", "nut-free"],
+        "notes": "Adds sweetness and moisture — great in pancakes and muffins",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Silken tofu",
+        "ratio": "1/4 cup blended per 1 egg",
+        "tags": ["vegan", "egg-free", "dairy-free", "nut-free"],
+        "notes": "Neutral flavor; adds moisture and binding",
+        "bestFor": ["baking", "scrambles"]
+      },
+      {
+        "name": "Commercial egg replacer",
+        "ratio": "Follow package directions",
+        "tags": ["vegan", "egg-free", "dairy-free"],
+        "notes": "Bob's Red Mill or JUST Egg work well for most recipes",
+        "bestFor": ["baking", "cooking"]
+      }
+    ]
+  },
+  {
+    "original": "milk",
+    "substitutes": [
+      {
+        "name": "Oat milk",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "nut-free", "soy-free"],
+        "notes": "Creamy texture and neutral flavor — great all-purpose sub",
+        "bestFor": ["baking", "cereal", "sauces"]
+      },
+      {
+        "name": "Almond milk",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "soy-free"],
+        "notes": "Slightly nutty; thinner than whole milk",
+        "bestFor": ["baking", "smoothies", "cereal"]
+      },
+      {
+        "name": "Soy milk",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "nut-free"],
+        "notes": "Closest protein content to cow's milk",
+        "bestFor": ["baking", "cooking", "cereal"]
+      },
+      {
+        "name": "Coconut milk (carton)",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "nut-free", "soy-free"],
+        "notes": "Mild coconut flavor; use carton version not canned for 1:1",
+        "bestFor": ["baking", "smoothies"]
+      }
+    ]
+  },
+  {
+    "original": "heavy cream",
+    "substitutes": [
+      {
+        "name": "Coconut cream",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan"],
+        "notes": "Scoop thick cream from top of chilled full-fat coconut milk can",
+        "bestFor": ["whipping", "sauces", "soups"]
+      },
+      {
+        "name": "Cashew cream",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "soy-free"],
+        "notes": "Blend soaked cashews with water until smooth",
+        "bestFor": ["sauces", "soups", "pasta"]
+      },
+      {
+        "name": "Milk + butter (3/4 cup milk + 1/4 cup melted butter)",
+        "ratio": "1 cup mixture per 1 cup cream",
+        "tags": [],
+        "notes": "Not for whipping but works in baking and cooking",
+        "bestFor": ["baking", "sauces"]
+      },
+      {
+        "name": "Silken tofu blended",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "nut-free"],
+        "notes": "Blend until perfectly smooth for creamy texture",
+        "bestFor": ["sauces", "soups"]
+      }
+    ]
+  },
+  {
+    "original": "buttermilk",
+    "substitutes": [
+      {
+        "name": "Milk + vinegar (1 cup milk + 1 tbsp vinegar)",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Let sit 5–10 minutes to curdle before using",
+        "bestFor": ["baking", "pancakes"]
+      },
+      {
+        "name": "Milk + lemon juice (1 cup milk + 1 tbsp lemon juice)",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Same technique as vinegar method; let sit to curdle",
+        "bestFor": ["baking", "pancakes"]
+      },
+      {
+        "name": "Plain yogurt thinned with milk",
+        "ratio": "3/4 cup yogurt + 1/4 cup milk per 1 cup",
+        "tags": [],
+        "notes": "Adds tang similar to buttermilk",
+        "bestFor": ["baking", "dressings"]
+      },
+      {
+        "name": "Non-dairy milk + vinegar",
+        "ratio": "1 cup non-dairy milk + 1 tbsp vinegar",
+        "tags": ["dairy-free", "vegan"],
+        "notes": "Soy or oat milk works best for this substitution",
+        "bestFor": ["baking"]
+      }
+    ]
+  },
+  {
+    "original": "sour cream",
+    "substitutes": [
+      {
+        "name": "Plain Greek yogurt",
+        "ratio": "1:1",
+        "tags": ["low-fat"],
+        "notes": "Nearly identical tang and texture; higher protein",
+        "bestFor": ["dips", "baking", "toppings"]
+      },
+      {
+        "name": "Cashew cream + lemon juice",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "soy-free"],
+        "notes": "Blend soaked cashews with lemon juice and salt",
+        "bestFor": ["dips", "toppings"]
+      },
+      {
+        "name": "Coconut cream + lemon juice",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "nut-free", "soy-free"],
+        "notes": "Slight coconut flavor; great for dairy-free taco toppings",
+        "bestFor": ["toppings", "dips"]
+      }
+    ]
+  },
+  {
+    "original": "cream cheese",
+    "substitutes": [
+      {
+        "name": "Cashew cream cheese",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "soy-free"],
+        "notes": "Blend soaked cashews with lemon juice, salt, and nutritional yeast",
+        "bestFor": ["spreads", "baking", "frosting"]
+      },
+      {
+        "name": "Silken tofu blended + lemon",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "nut-free"],
+        "notes": "Blend until very smooth; season with salt and lemon",
+        "bestFor": ["spreads", "dips"]
+      },
+      {
+        "name": "Neufchâtel cheese",
+        "ratio": "1:1",
+        "tags": ["low-fat"],
+        "notes": "Lower-fat version of cream cheese with very similar taste",
+        "bestFor": ["spreads", "baking", "frosting"]
+      },
+      {
+        "name": "Ricotta blended smooth",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Blend until smooth; slightly grainier but works in baking",
+        "bestFor": ["baking", "dips"]
+      }
+    ]
+  },
+  {
+    "original": "flour (all-purpose)",
+    "substitutes": [
+      {
+        "name": "Almond flour",
+        "ratio": "1:1 (may need extra egg for binding)",
+        "tags": ["gluten-free"],
+        "notes": "Adds nuttiness and moisture; denser than AP flour",
+        "bestFor": ["baking", "breading"]
+      },
+      {
+        "name": "Oat flour",
+        "ratio": "1:1",
+        "tags": ["gluten-free"],
+        "notes": "Blend rolled oats until fine; soft texture in baked goods",
+        "bestFor": ["baking", "pancakes"]
+      },
+      {
+        "name": "Coconut flour",
+        "ratio": "1/4 cup per 1 cup AP flour",
+        "tags": ["gluten-free", "nut-free"],
+        "notes": "Very absorbent — increase liquid and eggs significantly",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "1:1 gluten-free flour blend",
+        "ratio": "1:1",
+        "tags": ["gluten-free"],
+        "notes": "Bob's Red Mill or King Arthur work well as direct swaps",
+        "bestFor": ["baking", "thickening"]
+      },
+      {
+        "name": "Cassava flour",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "nut-free", "paleo"],
+        "notes": "Closest texture to wheat flour among grain-free options",
+        "bestFor": ["baking", "tortillas"]
+      }
+    ]
+  },
+  {
+    "original": "bread crumbs",
+    "substitutes": [
+      {
+        "name": "Crushed crackers",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Saltines or Ritz work great; adjust seasoning",
+        "bestFor": ["breading", "casserole toppings"]
+      },
+      {
+        "name": "Rolled oats (pulsed)",
+        "ratio": "1:1",
+        "tags": ["gluten-free"],
+        "notes": "Pulse in food processor for finer texture; hearty flavor",
+        "bestFor": ["meatballs", "meatloaf"]
+      },
+      {
+        "name": "Crushed cornflakes",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free"],
+        "notes": "Extra crunchy coating for fried or baked foods",
+        "bestFor": ["breading"]
+      },
+      {
+        "name": "Almond meal",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "low-fat"],
+        "notes": "Low-carb option; adds nutty flavor",
+        "bestFor": ["breading", "casserole toppings"]
+      },
+      {
+        "name": "Panko (gluten-free)",
+        "ratio": "1:1",
+        "tags": ["gluten-free"],
+        "notes": "Available from specialty brands; lighter and crispier",
+        "bestFor": ["breading", "toppings"]
+      }
+    ]
+  },
+  {
+    "original": "sugar",
+    "substitutes": [
+      {
+        "name": "Honey",
+        "ratio": "3/4 cup per 1 cup (reduce liquid by 2 tbsp)",
+        "tags": ["low-sugar"],
+        "notes": "Adds moisture and caramelization; reduce oven temp by 25°F",
+        "bestFor": ["baking", "sweetening"]
+      },
+      {
+        "name": "Maple syrup",
+        "ratio": "3/4 cup per 1 cup (reduce liquid by 3 tbsp)",
+        "tags": ["vegan", "low-sugar"],
+        "notes": "Distinctive flavor; works well in fall-themed bakes",
+        "bestFor": ["baking", "sweetening", "dressings"]
+      },
+      {
+        "name": "Coconut sugar",
+        "ratio": "1:1",
+        "tags": ["vegan", "paleo"],
+        "notes": "Lower glycemic index; caramel-like flavor",
+        "bestFor": ["baking", "coffee"]
+      },
+      {
+        "name": "Stevia",
+        "ratio": "1 tsp per 1 cup sugar",
+        "tags": ["vegan", "low-sugar", "low-fat"],
+        "notes": "Extremely sweet; best combined with bulking agents in baking",
+        "bestFor": ["beverages", "light sweetening"]
+      },
+      {
+        "name": "Mashed banana",
+        "ratio": "1 cup per 1 cup sugar (reduce liquid slightly)",
+        "tags": ["vegan", "low-sugar", "whole30"],
+        "notes": "Adds banana flavor and extra moisture",
+        "bestFor": ["baking"]
+      }
+    ]
+  },
+  {
+    "original": "brown sugar",
+    "substitutes": [
+      {
+        "name": "White sugar + molasses (1 cup sugar + 1 tbsp molasses)",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "This is essentially what brown sugar is — a perfect DIY swap",
+        "bestFor": ["baking", "sauces"]
+      },
+      {
+        "name": "Coconut sugar",
+        "ratio": "1:1",
+        "tags": ["vegan", "paleo"],
+        "notes": "Similar caramel notes and color; slightly drier",
+        "bestFor": ["baking", "sauces"]
+      },
+      {
+        "name": "Maple syrup",
+        "ratio": "2/3 cup per 1 cup (reduce liquid by 1/4 cup)",
+        "tags": ["vegan"],
+        "notes": "Adjust liquids in recipe; adds maple flavor",
+        "bestFor": ["baking", "glazes"]
+      },
+      {
+        "name": "Date sugar",
+        "ratio": "1:1",
+        "tags": ["vegan", "paleo", "whole30"],
+        "notes": "Ground dried dates; doesn't melt like sugar but adds depth",
+        "bestFor": ["baking", "toppings"]
+      }
+    ]
+  },
+  {
+    "original": "honey",
+    "substitutes": [
+      {
+        "name": "Maple syrup",
+        "ratio": "1:1",
+        "tags": ["vegan"],
+        "notes": "Best vegan alternative with similar consistency",
+        "bestFor": ["baking", "dressings", "sweetening"]
+      },
+      {
+        "name": "Agave nectar",
+        "ratio": "1:1",
+        "tags": ["vegan"],
+        "notes": "Thinner and sweeter than honey; reduce amount slightly",
+        "bestFor": ["beverages", "dressings"]
+      },
+      {
+        "name": "Brown rice syrup",
+        "ratio": "1:1",
+        "tags": ["vegan", "nut-free"],
+        "notes": "Less sweet and more viscous; nutty undertone",
+        "bestFor": ["granola bars", "baking"]
+      },
+      {
+        "name": "Date syrup",
+        "ratio": "1:1",
+        "tags": ["vegan", "paleo", "whole30"],
+        "notes": "Rich, caramel-like flavor; great in marinades",
+        "bestFor": ["marinades", "dressings"]
+      }
+    ]
+  },
+  {
+    "original": "oil (vegetable)",
+    "substitutes": [
+      {
+        "name": "Applesauce",
+        "ratio": "1:1",
+        "tags": ["vegan", "low-fat"],
+        "notes": "Best in sweet baked goods; adds moisture and reduces fat",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Mashed banana",
+        "ratio": "1:1",
+        "tags": ["vegan", "low-fat"],
+        "notes": "Adds sweetness and banana flavor; great in muffins",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Avocado oil",
+        "ratio": "1:1",
+        "tags": ["vegan", "paleo", "whole30"],
+        "notes": "High smoke point; neutral flavor for frying and baking",
+        "bestFor": ["frying", "baking", "roasting"]
+      },
+      {
+        "name": "Coconut oil (melted)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "paleo"],
+        "notes": "Mild coconut flavor; solidifies when cool",
+        "bestFor": ["baking", "sautéing"]
+      },
+      {
+        "name": "Melted butter",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Adds richness; not suitable for dairy-free diets",
+        "bestFor": ["baking", "cooking"]
+      }
+    ]
+  },
+  {
+    "original": "baking powder",
+    "substitutes": [
+      {
+        "name": "Baking soda + cream of tartar (1/4 tsp soda + 1/2 tsp cream of tartar)",
+        "ratio": "3/4 tsp mixture per 1 tsp baking powder",
+        "tags": ["gluten-free", "vegan"],
+        "notes": "Use immediately — no double-acting like commercial baking powder",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Self-rising flour (replace AP flour)",
+        "ratio": "1 cup self-rising flour per 1 cup AP flour + 1.5 tsp baking powder",
+        "tags": [],
+        "notes": "Already contains baking powder and salt; adjust recipe accordingly",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Whipped egg whites",
+        "ratio": "2 whipped whites per 1 tsp baking powder",
+        "tags": ["gluten-free"],
+        "notes": "Fold in gently to maintain airiness",
+        "bestFor": ["cakes", "soufflés"]
+      }
+    ]
+  },
+  {
+    "original": "baking soda",
+    "substitutes": [
+      {
+        "name": "Baking powder",
+        "ratio": "3 tsp baking powder per 1 tsp baking soda",
+        "tags": ["gluten-free"],
+        "notes": "Triple the amount; may add slight metallic taste in large quantities",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Potassium bicarbonate",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "vegan"],
+        "notes": "Sodium-free alternative; may need to add salt separately",
+        "bestFor": ["baking"]
+      },
+      {
+        "name": "Baker's ammonia (ammonium carbonate)",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "vegan"],
+        "notes": "Best for thin, crispy cookies; smell dissipates during baking",
+        "bestFor": ["cookies", "crackers"]
+      }
+    ]
+  },
+  {
+    "original": "cornstarch",
+    "substitutes": [
+      {
+        "name": "Arrowroot powder",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "vegan", "paleo"],
+        "notes": "Freezes better than cornstarch; becomes slimy if overcooked",
+        "bestFor": ["sauces", "pie fillings"]
+      },
+      {
+        "name": "Tapioca starch",
+        "ratio": "2 tbsp per 1 tbsp cornstarch",
+        "tags": ["gluten-free", "vegan", "nut-free"],
+        "notes": "Creates glossy, stretchy texture; great for fruit pies",
+        "bestFor": ["pie fillings", "sauces"]
+      },
+      {
+        "name": "All-purpose flour",
+        "ratio": "2 tbsp per 1 tbsp cornstarch",
+        "tags": [],
+        "notes": "Makes sauces more opaque; cook longer to remove raw taste",
+        "bestFor": ["sauces", "gravies"]
+      },
+      {
+        "name": "Potato starch",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "vegan"],
+        "notes": "Add at end of cooking; breaks down with prolonged heat",
+        "bestFor": ["sauces", "soups"]
+      }
+    ]
+  },
+  {
+    "original": "cocoa powder",
+    "substitutes": [
+      {
+        "name": "Carob powder",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "nut-free"],
+        "notes": "Naturally sweeter than cocoa; reduce sugar in recipe",
+        "bestFor": ["baking", "smoothies"]
+      },
+      {
+        "name": "Cacao powder (raw)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "paleo"],
+        "notes": "More bitter and intense chocolate flavor; less processed",
+        "bestFor": ["baking", "smoothies"]
+      },
+      {
+        "name": "Hot chocolate mix",
+        "ratio": "1:1 (reduce sugar in recipe)",
+        "tags": [],
+        "notes": "Contains sugar and sometimes milk powder; adjust other sweeteners",
+        "bestFor": ["baking"]
+      }
+    ]
+  },
+  {
+    "original": "chocolate chips",
+    "substitutes": [
+      {
+        "name": "Chopped chocolate bar",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Any chocolate bar works; creates rustic uneven chunks",
+        "bestFor": ["baking", "cookies"]
+      },
+      {
+        "name": "Cacao nibs",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "paleo"],
+        "notes": "Crunchy and less sweet; adds intense chocolate flavor",
+        "bestFor": ["cookies", "trail mix", "toppings"]
+      },
+      {
+        "name": "Carob chips",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Caffeine-free and naturally sweeter than chocolate",
+        "bestFor": ["baking", "cookies"]
+      },
+      {
+        "name": "White chocolate chips",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Different flavor profile but same melt and texture properties",
+        "bestFor": ["baking", "cookies"]
+      }
+    ]
+  },
+  {
+    "original": "mayonnaise",
+    "substitutes": [
+      {
+        "name": "Greek yogurt",
+        "ratio": "1:1",
+        "tags": ["low-fat", "egg-free"],
+        "notes": "Tangy and creamy; lower in fat with more protein",
+        "bestFor": ["dressings", "sandwiches", "dips"]
+      },
+      {
+        "name": "Mashed avocado",
+        "ratio": "1:1",
+        "tags": ["vegan", "egg-free", "dairy-free"],
+        "notes": "Creamy and rich; adds green tint to dishes",
+        "bestFor": ["sandwiches", "wraps"]
+      },
+      {
+        "name": "Hummus",
+        "ratio": "1:1",
+        "tags": ["vegan", "egg-free", "dairy-free"],
+        "notes": "Earthy flavor; works well in wraps and as a spread",
+        "bestFor": ["sandwiches", "dips"]
+      },
+      {
+        "name": "Vegan mayo",
+        "ratio": "1:1",
+        "tags": ["vegan", "egg-free", "dairy-free"],
+        "notes": "Commercial brands like Vegenaise taste very close to regular mayo",
+        "bestFor": ["dressings", "sandwiches", "dips"]
+      }
+    ]
+  },
+  {
+    "original": "yogurt",
+    "substitutes": [
+      {
+        "name": "Sour cream",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Very similar tang and texture; slightly higher fat",
+        "bestFor": ["baking", "dips", "toppings"]
+      },
+      {
+        "name": "Coconut yogurt",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "nut-free", "soy-free"],
+        "notes": "Mild coconut flavor; check labels for added sugars",
+        "bestFor": ["smoothies", "parfaits", "baking"]
+      },
+      {
+        "name": "Silken tofu (blended)",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "vegan", "nut-free"],
+        "notes": "Blend until smooth; neutral flavor absorbs other ingredients",
+        "bestFor": ["smoothies", "baking"]
+      },
+      {
+        "name": "Buttermilk",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "More liquid; best in baked goods rather than as a topping",
+        "bestFor": ["baking", "marinades"]
+      }
+    ]
+  },
+  {
+    "original": "lemon juice",
+    "substitutes": [
+      {
+        "name": "Lime juice",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Slightly different citrus flavor but same acidity level",
+        "bestFor": ["cooking", "dressings", "baking"]
+      },
+      {
+        "name": "White wine vinegar",
+        "ratio": "1/2 amount",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Stronger acidity; use half the amount and taste-adjust",
+        "bestFor": ["dressings", "sauces"]
+      },
+      {
+        "name": "Apple cider vinegar",
+        "ratio": "1/2 amount",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Fruitier taste; good for buttermilk substitutes and dressings",
+        "bestFor": ["dressings", "marinades"]
+      },
+      {
+        "name": "Orange juice",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Sweeter and less tart; works in baking and glazes",
+        "bestFor": ["baking", "glazes"]
+      }
+    ]
+  },
+  {
+    "original": "vinegar",
+    "substitutes": [
+      {
+        "name": "Lemon juice",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Bright, fresh acidity; works in most vinegar applications",
+        "bestFor": ["dressings", "marinades", "baking"]
+      },
+      {
+        "name": "Lime juice",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Similar acidity to lemon; pairs well with Mexican and Asian dishes",
+        "bestFor": ["dressings", "marinades"]
+      },
+      {
+        "name": "White wine",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Milder acidity; adds complexity to sauces",
+        "bestFor": ["sauces", "deglazing"]
+      },
+      {
+        "name": "Tamarind paste",
+        "ratio": "1 tbsp paste per 1 tbsp vinegar",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Tart and slightly sweet; great in Asian and Indian dishes",
+        "bestFor": ["curries", "stir-fries", "sauces"]
+      }
+    ]
+  },
+  {
+    "original": "chicken broth",
+    "substitutes": [
+      {
+        "name": "Vegetable broth",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Lighter flavor; add extra seasoning to compensate",
+        "bestFor": ["soups", "sauces", "rice"]
+      },
+      {
+        "name": "Mushroom broth",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Deep umami flavor that closely mimics chicken broth richness",
+        "bestFor": ["soups", "risotto", "gravies"]
+      },
+      {
+        "name": "Water + bouillon cube",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Quick pantry solution; watch sodium content",
+        "bestFor": ["soups", "sauces"]
+      },
+      {
+        "name": "Bone broth",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free", "paleo", "whole30"],
+        "notes": "Richer and more gelatinous; adds collagen protein",
+        "bestFor": ["soups", "sipping"]
+      }
+    ]
+  },
+  {
+    "original": "beef broth",
+    "substitutes": [
+      {
+        "name": "Mushroom broth",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Best vegan substitute for beef broth — deep savory umami",
+        "bestFor": ["stews", "gravies", "soups"]
+      },
+      {
+        "name": "Soy sauce + water (1 tbsp soy sauce per 1 cup water)",
+        "ratio": "1 cup mixture per 1 cup broth",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Adds color and umami; not gluten-free unless using tamari",
+        "bestFor": ["stews", "sauces"]
+      },
+      {
+        "name": "Vegetable broth + soy sauce",
+        "ratio": "1:1 broth + 1 tsp soy sauce",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Boost veggie broth with soy for more depth",
+        "bestFor": ["stews", "soups", "gravies"]
+      },
+      {
+        "name": "Beer (dark ale or stout)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Rich malty flavor; alcohol cooks off during heating",
+        "bestFor": ["stews", "chili", "braises"]
+      }
+    ]
+  },
+  {
+    "original": "garlic",
+    "substitutes": [
+      {
+        "name": "Garlic powder",
+        "ratio": "1/8 tsp per 1 clove",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Concentrated flavor; add early in cooking",
+        "bestFor": ["sauces", "rubs", "soups"]
+      },
+      {
+        "name": "Garlic flakes (minced dehydrated)",
+        "ratio": "1/2 tsp per 1 clove",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Rehydrates during cooking; slightly milder than fresh",
+        "bestFor": ["stir-fries", "soups", "sauces"]
+      },
+      {
+        "name": "Shallots",
+        "ratio": "1 small shallot per 2 cloves",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Milder, more delicate allium flavor",
+        "bestFor": ["dressings", "sauces"]
+      },
+      {
+        "name": "Garlic-infused oil",
+        "ratio": "1/2 tsp per 1 clove",
+        "tags": ["vegan", "gluten-free", "dairy-free", "low-fat"],
+        "notes": "Great for low-FODMAP diets since solids are strained out",
+        "bestFor": ["sautéing", "dressings"]
+      }
+    ]
+  },
+  {
+    "original": "onion",
+    "substitutes": [
+      {
+        "name": "Onion powder",
+        "ratio": "1 tsp per 1 small onion",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Use when you want flavor without the texture",
+        "bestFor": ["rubs", "sauces", "soups"]
+      },
+      {
+        "name": "Shallots",
+        "ratio": "3 shallots per 1 medium onion",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Sweeter and milder; elegant substitute in raw or cooked dishes",
+        "bestFor": ["dressings", "sauces", "stir-fries"]
+      },
+      {
+        "name": "Leeks (white and light green parts)",
+        "ratio": "1 large leek per 1 medium onion",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Milder and slightly sweet; wash thoroughly to remove grit",
+        "bestFor": ["soups", "quiches", "sautéing"]
+      },
+      {
+        "name": "Celery",
+        "ratio": "2 stalks per 1 small onion",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Adds crunch and mild flavor; not a flavor match but works in mirepoix",
+        "bestFor": ["soups", "stews", "stuffing"]
+      },
+      {
+        "name": "Fennel bulb",
+        "ratio": "1/2 bulb per 1 medium onion",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Slightly sweet with mild anise flavor; mellows when cooked",
+        "bestFor": ["roasting", "braising", "salads"]
+      }
+    ]
+  },
+  {
+    "original": "rice",
+    "substitutes": [
+      {
+        "name": "Cauliflower rice",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "low-fat", "paleo", "whole30"],
+        "notes": "Pulse cauliflower in food processor; sauté for best texture",
+        "bestFor": ["stir-fries", "burrito bowls", "fried rice"]
+      },
+      {
+        "name": "Quinoa",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Higher protein; rinse before cooking to remove bitterness",
+        "bestFor": ["grain bowls", "side dishes", "stuffing"]
+      },
+      {
+        "name": "Couscous",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Cooks in 5 minutes; fluffier texture than rice",
+        "bestFor": ["side dishes", "salads"]
+      },
+      {
+        "name": "Bulgur wheat",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Nutty flavor and chewy texture; quick-cooking",
+        "bestFor": ["tabbouleh", "pilafs", "grain bowls"]
+      },
+      {
+        "name": "Orzo pasta",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Rice-shaped pasta; works well in soups and pilafs",
+        "bestFor": ["soups", "salads", "pilafs"]
+      }
+    ]
+  },
+  {
+    "original": "pasta",
+    "substitutes": [
+      {
+        "name": "Zucchini noodles (zoodles)",
+        "ratio": "2 medium zucchini per 8 oz pasta",
+        "tags": ["vegan", "gluten-free", "dairy-free", "paleo", "whole30", "low-fat"],
+        "notes": "Spiralize and sauté briefly; don't overcook or they get mushy",
+        "bestFor": ["stir-fries", "pasta dishes"]
+      },
+      {
+        "name": "Spaghetti squash",
+        "ratio": "1 medium squash per 8 oz pasta",
+        "tags": ["vegan", "gluten-free", "dairy-free", "paleo", "whole30"],
+        "notes": "Roast, then scrape out strands with a fork",
+        "bestFor": ["pasta dishes", "casseroles"]
+      },
+      {
+        "name": "Rice noodles",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Soak in hot water instead of boiling; great for Asian dishes",
+        "bestFor": ["stir-fries", "soups", "pad thai"]
+      },
+      {
+        "name": "Chickpea pasta",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Higher protein and fiber; slightly different texture",
+        "bestFor": ["pasta dishes", "salads"]
+      },
+      {
+        "name": "Sweet potato noodles",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "paleo"],
+        "notes": "Also called glass noodles (dangmyeon); chewy texture",
+        "bestFor": ["stir-fries", "soups"]
+      }
+    ]
+  },
+  {
+    "original": "soy sauce",
+    "substitutes": [
+      {
+        "name": "Tamari",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Japanese soy sauce made with little or no wheat; richer flavor",
+        "bestFor": ["stir-fries", "marinades", "dipping"]
+      },
+      {
+        "name": "Coconut aminos",
+        "ratio": "1:1 (may need a bit more)",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free", "paleo", "whole30"],
+        "notes": "Sweeter and less salty than soy sauce; great allergy-friendly option",
+        "bestFor": ["stir-fries", "marinades", "dressings"]
+      },
+      {
+        "name": "Liquid aminos (Bragg's)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Made from soybeans but not fermented; slightly milder",
+        "bestFor": ["stir-fries", "rice dishes"]
+      },
+      {
+        "name": "Worcestershire sauce",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free"],
+        "notes": "Not vegan (contains anchovies typically); adds umami complexity",
+        "bestFor": ["marinades", "sauces", "stews"]
+      },
+      {
+        "name": "Fish sauce + water (1:1 dilution)",
+        "ratio": "1 tsp diluted per 1 tbsp soy sauce",
+        "tags": ["gluten-free", "dairy-free", "soy-free"],
+        "notes": "Very salty and pungent; use sparingly and dilute",
+        "bestFor": ["stir-fries", "curries", "soups"]
+      }
+    ]
+  },
+  {
+    "original": "tomato paste",
+    "substitutes": [
+      {
+        "name": "Tomato sauce (reduced)",
+        "ratio": "3 tbsp sauce per 1 tbsp paste",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Simmer sauce until thickened to mimic paste consistency",
+        "bestFor": ["soups", "stews", "sauces"]
+      },
+      {
+        "name": "Ketchup",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Sweeter and more vinegary; reduce other sugars in recipe",
+        "bestFor": ["quick sauces", "meatloaf"]
+      },
+      {
+        "name": "Sun-dried tomatoes (blended)",
+        "ratio": "1:1 (blended to paste)",
+        "tags": ["vegan", "gluten-free", "dairy-free", "paleo", "whole30"],
+        "notes": "Intense concentrated tomato flavor; soak in hot water first",
+        "bestFor": ["sauces", "dips", "pasta"]
+      },
+      {
+        "name": "Roasted red peppers (blended)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Different flavor profile but adds color and body",
+        "bestFor": ["sauces", "soups"]
+      }
+    ]
+  },
+  {
+    "original": "peanut butter",
+    "substitutes": [
+      {
+        "name": "Almond butter",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free"],
+        "notes": "Milder and slightly sweeter; very similar texture",
+        "bestFor": ["sandwiches", "baking", "sauces"]
+      },
+      {
+        "name": "Sunflower seed butter",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Best nut-free option; may turn green in baked goods (harmless reaction with baking soda)",
+        "bestFor": ["sandwiches", "baking", "smoothies"]
+      },
+      {
+        "name": "Tahini",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Made from sesame seeds; more bitter, works great in savory applications",
+        "bestFor": ["dressings", "sauces", "baking"]
+      },
+      {
+        "name": "Cashew butter",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free"],
+        "notes": "Creamier and milder than peanut butter",
+        "bestFor": ["smoothies", "baking", "sauces"]
+      },
+      {
+        "name": "Soy nut butter",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free"],
+        "notes": "Closest taste to peanut butter among nut-free options",
+        "bestFor": ["sandwiches", "baking"]
+      }
+    ]
+  },
+  {
+    "original": "cheese (cheddar)",
+    "substitutes": [
+      {
+        "name": "Nutritional yeast",
+        "ratio": "2 tbsp per 1/4 cup shredded cheese",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Cheesy, nutty flavor; great for sprinkling or sauces",
+        "bestFor": ["popcorn", "pasta", "sauces"]
+      },
+      {
+        "name": "Vegan cheddar shreds",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Brands like Violife or Follow Your Heart melt reasonably well",
+        "bestFor": ["sandwiches", "nachos", "pizza"]
+      },
+      {
+        "name": "Cashew cheese sauce",
+        "ratio": "1/4 cup sauce per 1/4 cup shredded cheese",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Blend soaked cashews with nutritional yeast, turmeric, and lemon",
+        "bestFor": ["mac and cheese", "nachos", "dips"]
+      },
+      {
+        "name": "Pepper jack or Colby",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Similar melt and texture if you just need a different cheese variety",
+        "bestFor": ["sandwiches", "burgers", "casseroles"]
+      }
+    ]
+  },
+  {
+    "original": "parmesan",
+    "substitutes": [
+      {
+        "name": "Nutritional yeast",
+        "ratio": "2 tbsp per 2 tbsp parmesan",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free"],
+        "notes": "Savory umami flavor; closest vegan match for sprinkling",
+        "bestFor": ["pasta", "salads", "popcorn"]
+      },
+      {
+        "name": "Pecorino Romano",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Sharper and saltier; made from sheep's milk",
+        "bestFor": ["pasta", "salads", "risotto"]
+      },
+      {
+        "name": "Asiago",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Slightly milder; aged versions work best as a substitute",
+        "bestFor": ["pasta", "salads", "bread"]
+      },
+      {
+        "name": "Cashew parmesan (pulsed cashews + nutritional yeast + salt)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Pulse in food processor for a crumbly sprinkle topping",
+        "bestFor": ["pasta", "salads", "garlic bread"]
+      }
+    ]
+  },
+  {
+    "original": "whipped cream",
+    "substitutes": [
+      {
+        "name": "Coconut whipped cream",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Chill full-fat coconut milk overnight, scoop cream, whip with sugar",
+        "bestFor": ["dessert toppings", "pies", "hot cocoa"]
+      },
+      {
+        "name": "Aquafaba whip (chickpea brine)",
+        "ratio": "3 tbsp aquafaba per 1 egg white equivalent",
+        "tags": ["vegan", "dairy-free", "gluten-free", "nut-free", "soy-free"],
+        "notes": "Whip liquid from canned chickpeas to stiff peaks; add sugar",
+        "bestFor": ["meringues", "mousses", "toppings"]
+      },
+      {
+        "name": "Cool Whip or frozen whip topping",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Convenient and shelf-stable; sweeter than fresh whipped cream",
+        "bestFor": ["dessert toppings", "pies"]
+      }
+    ]
+  },
+  {
+    "original": "condensed milk",
+    "substitutes": [
+      {
+        "name": "Coconut condensed milk",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Available canned; slight coconut flavor",
+        "bestFor": ["desserts", "fudge", "pie fillings"]
+      },
+      {
+        "name": "DIY (simmer milk + sugar until reduced by half)",
+        "ratio": "1 cup milk + 1/2 cup sugar → ~3/4 cup",
+        "tags": [],
+        "notes": "Simmer on low heat 30–40 minutes stirring often",
+        "bestFor": ["desserts", "fudge", "coffee"]
+      },
+      {
+        "name": "Evaporated milk + sugar",
+        "ratio": "1 cup evaporated milk + 1-1/4 cup sugar",
+        "tags": [],
+        "notes": "Heat until sugar dissolves; similar consistency",
+        "bestFor": ["desserts", "pies"]
+      }
+    ]
+  },
+  {
+    "original": "evaporated milk",
+    "substitutes": [
+      {
+        "name": "DIY (simmer regular milk until reduced by half)",
+        "ratio": "2 cups milk → 1 cup evaporated",
+        "tags": [],
+        "notes": "Simmer on medium-low, stirring occasionally, about 25 minutes",
+        "bestFor": ["sauces", "soups", "baking"]
+      },
+      {
+        "name": "Coconut milk (full-fat canned)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Rich and creamy; adds mild coconut flavor",
+        "bestFor": ["curries", "soups", "baking"]
+      },
+      {
+        "name": "Half-and-half",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Slightly thinner but works in most recipes",
+        "bestFor": ["sauces", "soups", "baking"]
+      },
+      {
+        "name": "Oat milk (barista-style)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free", "nut-free", "soy-free"],
+        "notes": "Barista blends are thicker and more similar to evaporated milk",
+        "bestFor": ["sauces", "coffee", "baking"]
+      }
+    ]
+  },
+  {
+    "original": "gelatin",
+    "substitutes": [
+      {
+        "name": "Agar-agar",
+        "ratio": "1 tsp agar per 1 tsp gelatin",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Seaweed-based; sets firmer than gelatin, must be boiled to activate",
+        "bestFor": ["jellies", "panna cotta", "puddings"]
+      },
+      {
+        "name": "Pectin",
+        "ratio": "Follow package directions",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Fruit-derived; needs sugar and acid to set properly",
+        "bestFor": ["jams", "jellies", "fruit desserts"]
+      },
+      {
+        "name": "Carrageenan",
+        "ratio": "Follow package directions",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Seaweed-based; softer set than agar, good for creamy desserts",
+        "bestFor": ["puddings", "mousses"]
+      }
+    ]
+  },
+  {
+    "original": "maple syrup",
+    "substitutes": [
+      {
+        "name": "Honey",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Slightly different flavor but same viscosity and sweetness",
+        "bestFor": ["pancakes", "baking", "dressings"]
+      },
+      {
+        "name": "Agave nectar",
+        "ratio": "1:1",
+        "tags": ["vegan"],
+        "notes": "Thinner and milder; won't add maple flavor",
+        "bestFor": ["beverages", "dressings"]
+      },
+      {
+        "name": "Brown sugar syrup (1 cup brown sugar + 1/2 cup water, simmered)",
+        "ratio": "1:1",
+        "tags": ["vegan"],
+        "notes": "Dissolve brown sugar in water over heat; caramel-like taste",
+        "bestFor": ["pancakes", "waffles", "oatmeal"]
+      },
+      {
+        "name": "Coconut nectar",
+        "ratio": "1:1",
+        "tags": ["vegan", "paleo"],
+        "notes": "Low-glycemic sweetener with mild caramel taste",
+        "bestFor": ["pancakes", "baking", "smoothies"]
+      }
+    ]
+  },
+  {
+    "original": "cream of tartar",
+    "substitutes": [
+      {
+        "name": "Lemon juice",
+        "ratio": "1/2 tsp lemon juice per 1/4 tsp cream of tartar",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Provides the acidity needed for stabilizing egg whites",
+        "bestFor": ["meringues", "snickerdoodles"]
+      },
+      {
+        "name": "White vinegar",
+        "ratio": "1/2 tsp vinegar per 1/4 tsp cream of tartar",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Works identically to lemon juice as an acid stabilizer",
+        "bestFor": ["meringues", "baking"]
+      },
+      {
+        "name": "Baking powder (if used as leavener)",
+        "ratio": "1.5 tsp baking powder per 1 tsp cream of tartar (omit baking soda)",
+        "tags": ["vegan", "gluten-free"],
+        "notes": "Only works when cream of tartar is paired with baking soda in recipe",
+        "bestFor": ["baking"]
+      }
+    ]
+  },
+  {
+    "original": "molasses",
+    "substitutes": [
+      {
+        "name": "Dark corn syrup",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Less complex flavor but similar color and consistency",
+        "bestFor": ["baking", "sauces"]
+      },
+      {
+        "name": "Honey + dark brown sugar",
+        "ratio": "3/4 cup honey + 1/4 cup brown sugar per 1 cup",
+        "tags": [],
+        "notes": "Mimics molasses color and bittersweet depth",
+        "bestFor": ["baking", "marinades"]
+      },
+      {
+        "name": "Maple syrup",
+        "ratio": "1:1",
+        "tags": ["vegan"],
+        "notes": "Lighter flavor; works in a pinch for baking",
+        "bestFor": ["baking", "glazes"]
+      },
+      {
+        "name": "Black treacle",
+        "ratio": "1:1",
+        "tags": ["vegan"],
+        "notes": "British equivalent; very similar flavor and consistency",
+        "bestFor": ["baking", "sauces"]
+      }
+    ]
+  },
+  {
+    "original": "ricotta",
+    "substitutes": [
+      {
+        "name": "Cottage cheese (blended smooth)",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Blend in food processor for smooth texture; slightly tangier",
+        "bestFor": ["lasagna", "stuffed shells", "dips"]
+      },
+      {
+        "name": "Tofu ricotta (firm tofu + lemon + nutritional yeast)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Crumble firm tofu and season; great in lasagna",
+        "bestFor": ["lasagna", "stuffed shells", "pasta"]
+      },
+      {
+        "name": "Cashew ricotta",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Blend soaked cashews with lemon juice and salt",
+        "bestFor": ["lasagna", "toast", "pasta"]
+      },
+      {
+        "name": "Mascarpone",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Richer and creamier; works well in desserts and pasta",
+        "bestFor": ["desserts", "pasta", "dips"]
+      }
+    ]
+  },
+  {
+    "original": "mozzarella",
+    "substitutes": [
+      {
+        "name": "Provolone",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Melts well with slightly sharper flavor",
+        "bestFor": ["pizza", "sandwiches", "baking"]
+      },
+      {
+        "name": "Monterey Jack",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Mild and melty; great all-purpose substitute",
+        "bestFor": ["pizza", "quesadillas", "casseroles"]
+      },
+      {
+        "name": "Vegan mozzarella shreds",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Miyoko's or Follow Your Heart brands melt best",
+        "bestFor": ["pizza", "casseroles"]
+      },
+      {
+        "name": "Cashew mozzarella (homemade)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Blend soaked cashews with tapioca starch for stretch",
+        "bestFor": ["pizza", "lasagna"]
+      }
+    ]
+  },
+  {
+    "original": "half-and-half",
+    "substitutes": [
+      {
+        "name": "Milk + cream (3/4 cup milk + 1/4 cup cream)",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "DIY blend that matches fat content exactly",
+        "bestFor": ["coffee", "sauces", "baking"]
+      },
+      {
+        "name": "Whole milk + melted butter (1 cup milk + 1 tbsp butter)",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Butter adds the extra fat; works in most cooking applications",
+        "bestFor": ["sauces", "soups", "baking"]
+      },
+      {
+        "name": "Oat milk (barista blend)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Barista blends foam and thicken like half-and-half",
+        "bestFor": ["coffee", "sauces"]
+      },
+      {
+        "name": "Coconut milk (canned, diluted 1:1 with water)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "soy-free"],
+        "notes": "Dilute full-fat canned coconut milk to match richness",
+        "bestFor": ["curries", "coffee", "soups"]
+      }
+    ]
+  },
+  {
+    "original": "shortening",
+    "substitutes": [
+      {
+        "name": "Butter",
+        "ratio": "1:1 plus 1 tbsp per cup",
+        "tags": [],
+        "notes": "Adds flavor but more moisture; may spread more in cookies",
+        "bestFor": ["baking", "frostings"]
+      },
+      {
+        "name": "Coconut oil (refined, solid)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Use refined for neutral flavor; similar solid-fat properties",
+        "bestFor": ["baking", "pie crusts"]
+      },
+      {
+        "name": "Lard",
+        "ratio": "1:1",
+        "tags": ["dairy-free", "gluten-free"],
+        "notes": "Traditional choice for flaky pie crusts; not vegetarian",
+        "bestFor": ["pie crusts", "biscuits", "frying"]
+      },
+      {
+        "name": "Vegan butter (stick form)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Miyoko's or Earth Balance sticks work like shortening",
+        "bestFor": ["baking", "frostings", "pie crusts"]
+      }
+    ]
+  },
+  {
+    "original": "powdered sugar",
+    "substitutes": [
+      {
+        "name": "DIY (blend granulated sugar in blender + 1 tbsp cornstarch per cup)",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Blend on high speed for 30–60 seconds until powdery",
+        "bestFor": ["frostings", "glazes", "dusting"]
+      },
+      {
+        "name": "Coconut sugar (ground fine)",
+        "ratio": "1:1",
+        "tags": ["vegan", "paleo"],
+        "notes": "Darker color and caramel flavor; won't be pure white",
+        "bestFor": ["frostings", "baking"]
+      }
+    ]
+  },
+  {
+    "original": "vanilla extract",
+    "substitutes": [
+      {
+        "name": "Vanilla bean paste",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free"],
+        "notes": "Thicker with visible vanilla flecks; premium substitute",
+        "bestFor": ["baking", "custards", "ice cream"]
+      },
+      {
+        "name": "Almond extract",
+        "ratio": "1/2 tsp per 1 tsp vanilla",
+        "tags": ["vegan", "gluten-free"],
+        "notes": "Much stronger; use half the amount for a nutty-sweet flavor",
+        "bestFor": ["baking", "cookies"]
+      },
+      {
+        "name": "Maple syrup",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free"],
+        "notes": "Adds slight maple sweetness; works well in pancakes and baked goods",
+        "bestFor": ["baking", "oatmeal", "pancakes"]
+      },
+      {
+        "name": "Vanilla powder",
+        "ratio": "1/2 tsp per 1 tsp extract",
+        "tags": ["vegan", "gluten-free"],
+        "notes": "Alcohol-free option; great for no-bake recipes",
+        "bestFor": ["smoothies", "frostings", "no-bake desserts"]
+      }
+    ]
+  },
+  {
+    "original": "heavy cream (for whipping)",
+    "substitutes": [
+      {
+        "name": "Chilled coconut cream",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Refrigerate can overnight; scoop only the solid cream on top",
+        "bestFor": ["whipping", "toppings", "mousse"]
+      },
+      {
+        "name": "Cashew cream",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Blend soaked cashews until silky; won't hold stiff peaks",
+        "bestFor": ["sauces", "soups", "soft toppings"]
+      },
+      {
+        "name": "Aquafaba (chickpea brine, whipped)",
+        "ratio": "3 tbsp per 1 egg white",
+        "tags": ["vegan", "dairy-free", "gluten-free", "nut-free", "soy-free"],
+        "notes": "Whips to stiff peaks like egg whites; add sugar for sweetness",
+        "bestFor": ["meringues", "mousses", "frosting"]
+      }
+    ]
+  },
+  {
+    "original": "worcestershire sauce",
+    "substitutes": [
+      {
+        "name": "Soy sauce + vinegar + pinch of sugar",
+        "ratio": "1 tbsp soy + 1/2 tsp vinegar + pinch sugar per 1 tbsp",
+        "tags": ["dairy-free"],
+        "notes": "Quick pantry swap; close in umami and tang",
+        "bestFor": ["marinades", "stews", "burgers"]
+      },
+      {
+        "name": "Coconut aminos + vinegar",
+        "ratio": "1 tbsp coconut aminos + 1/2 tsp vinegar per 1 tbsp",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free"],
+        "notes": "Allergy-friendly option with similar savory-sweet balance",
+        "bestFor": ["marinades", "dressings"]
+      },
+      {
+        "name": "Balsamic vinegar",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Adds deep tangy sweetness; slightly different flavor profile",
+        "bestFor": ["dressings", "glazes", "marinades"]
+      },
+      {
+        "name": "Anchovy paste + vinegar",
+        "ratio": "1/2 tsp paste + 1 tsp vinegar per 1 tbsp",
+        "tags": ["gluten-free", "dairy-free"],
+        "notes": "Authentic umami hit; closest match to original ingredients",
+        "bestFor": ["sauces", "stews"]
+      }
+    ]
+  },
+  {
+    "original": "mustard (Dijon)",
+    "substitutes": [
+      {
+        "name": "Yellow mustard",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Milder and more tangy; less complex than Dijon",
+        "bestFor": ["sandwiches", "dressings", "sauces"]
+      },
+      {
+        "name": "Whole grain mustard",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Seedy texture but similar pungency to Dijon",
+        "bestFor": ["dressings", "marinades", "sandwiches"]
+      },
+      {
+        "name": "Horseradish",
+        "ratio": "1/2 tsp per 1 tsp Dijon",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Hot and pungent; use less and adjust to taste",
+        "bestFor": ["sauces", "roast beef"]
+      },
+      {
+        "name": "Wasabi",
+        "ratio": "1/4 tsp per 1 tsp Dijon",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Much hotter; adds heat and sinus-clearing kick",
+        "bestFor": ["dressings", "marinades"]
+      }
+    ]
+  },
+  {
+    "original": "wine (red, for cooking)",
+    "substitutes": [
+      {
+        "name": "Grape juice + vinegar",
+        "ratio": "3/4 cup juice + 1 tbsp vinegar per 1 cup",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Non-alcoholic option with similar fruity acidity",
+        "bestFor": ["stews", "sauces", "braises"]
+      },
+      {
+        "name": "Beef or mushroom broth",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free"],
+        "notes": "Adds depth without alcohol; skip the acidity component",
+        "bestFor": ["stews", "gravies"]
+      },
+      {
+        "name": "Pomegranate juice",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Deep color and tartness; unique flavor upgrade",
+        "bestFor": ["sauces", "braises"]
+      },
+      {
+        "name": "Cranberry juice (unsweetened)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Tart and deep-colored; works well in beef dishes",
+        "bestFor": ["stews", "sauces"]
+      }
+    ]
+  },
+  {
+    "original": "wine (white, for cooking)",
+    "substitutes": [
+      {
+        "name": "White grape juice + vinegar",
+        "ratio": "3/4 cup juice + 1 tbsp vinegar per 1 cup",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Non-alcoholic swap with similar sweetness and acidity",
+        "bestFor": ["sauces", "risotto", "seafood"]
+      },
+      {
+        "name": "Chicken or vegetable broth",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free"],
+        "notes": "Adds body without alcohol; squeeze of lemon helps mimic acidity",
+        "bestFor": ["sauces", "soups", "risotto"]
+      },
+      {
+        "name": "Apple cider vinegar (diluted)",
+        "ratio": "1 tbsp vinegar + enough water to make 1 cup",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Provides acidity; use sparingly so vinegar doesn't overpower",
+        "bestFor": ["sauces", "deglazing"]
+      },
+      {
+        "name": "Dry vermouth",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Herbal white wine alternative; lasts longer once opened",
+        "bestFor": ["sauces", "risotto", "seafood"]
+      }
+    ]
+  },
+  {
+    "original": "sesame oil",
+    "substitutes": [
+      {
+        "name": "Tahini (thinned with neutral oil)",
+        "ratio": "1/2 tsp tahini + 1/2 tsp neutral oil per 1 tsp",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free"],
+        "notes": "Provides sesame flavor; thin with vegetable oil for drizzling",
+        "bestFor": ["dressings", "stir-fries"]
+      },
+      {
+        "name": "Perilla oil",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Korean sesame oil alternative with similar nutty flavor",
+        "bestFor": ["Korean dishes", "dressings"]
+      },
+      {
+        "name": "Walnut oil",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Nutty flavor; use as a finishing oil, not for high-heat cooking",
+        "bestFor": ["dressings", "garnishing"]
+      },
+      {
+        "name": "Peanut oil",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Mild nutty flavor with higher smoke point; not nut-free",
+        "bestFor": ["stir-fries", "frying"]
+      }
+    ]
+  },
+  {
+    "original": "olive oil",
+    "substitutes": [
+      {
+        "name": "Avocado oil",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "paleo", "whole30"],
+        "notes": "Neutral flavor with very high smoke point; works for everything",
+        "bestFor": ["frying", "roasting", "dressings"]
+      },
+      {
+        "name": "Grapeseed oil",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Very neutral and light; good for baking and high-heat cooking",
+        "bestFor": ["frying", "baking", "sautéing"]
+      },
+      {
+        "name": "Coconut oil",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "paleo"],
+        "notes": "Use refined for neutral flavor; adds richness",
+        "bestFor": ["baking", "sautéing"]
+      },
+      {
+        "name": "Butter",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Adds richness; not suitable for high heat or dairy-free diets",
+        "bestFor": ["sautéing", "baking"]
+      }
+    ]
+  },
+  {
+    "original": "tortillas (flour)",
+    "substitutes": [
+      {
+        "name": "Corn tortillas",
+        "ratio": "1:1 (use 2 small corn per 1 large flour)",
+        "tags": ["gluten-free", "vegan", "dairy-free"],
+        "notes": "Heat on a dry skillet for best flexibility; more fragile",
+        "bestFor": ["tacos", "enchiladas"]
+      },
+      {
+        "name": "Lettuce wraps",
+        "ratio": "1 large leaf per 1 tortilla",
+        "tags": ["vegan", "gluten-free", "dairy-free", "paleo", "whole30", "low-fat"],
+        "notes": "Butter lettuce or iceberg works best; very low carb",
+        "bestFor": ["tacos", "wraps"]
+      },
+      {
+        "name": "Cassava flour tortillas",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "vegan", "dairy-free", "nut-free", "paleo"],
+        "notes": "Siete brand is popular; closest gluten-free texture to flour tortillas",
+        "bestFor": ["tacos", "burritos", "wraps"]
+      },
+      {
+        "name": "Rice paper wrappers",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "vegan", "dairy-free", "nut-free"],
+        "notes": "Dip in warm water to soften; delicate but roll well",
+        "bestFor": ["spring rolls", "wraps"]
+      }
+    ]
+  },
+  {
+    "original": "bread",
+    "substitutes": [
+      {
+        "name": "Gluten-free bread",
+        "ratio": "1:1",
+        "tags": ["gluten-free"],
+        "notes": "Canyon Bakehouse and Schär are well-reviewed brands; toast for best texture",
+        "bestFor": ["sandwiches", "toast"]
+      },
+      {
+        "name": "Lettuce wraps",
+        "ratio": "2 large leaves per 2 slices",
+        "tags": ["vegan", "gluten-free", "dairy-free", "paleo", "whole30", "low-fat"],
+        "notes": "Use sturdy varieties like romaine or butter lettuce",
+        "bestFor": ["sandwiches", "burgers"]
+      },
+      {
+        "name": "Sweet potato slices (toasted)",
+        "ratio": "1 thick slice per 1 bread slice",
+        "tags": ["vegan", "gluten-free", "dairy-free", "paleo", "whole30"],
+        "notes": "Slice 1/4 inch thick and toast twice in toaster for sturdiness",
+        "bestFor": ["toast", "open-faced sandwiches"]
+      },
+      {
+        "name": "Cloud bread (egg + cream cheese whipped and baked)",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "low-fat"],
+        "notes": "Light and fluffy; grain-free but not vegan",
+        "bestFor": ["sandwiches", "burgers"]
+      }
+    ]
+  },
+  {
+    "original": "ground beef",
+    "substitutes": [
+      {
+        "name": "Ground turkey",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free", "low-fat"],
+        "notes": "Leaner and milder; add extra seasoning for flavor",
+        "bestFor": ["tacos", "burgers", "meatballs"]
+      },
+      {
+        "name": "Lentils (cooked)",
+        "ratio": "1 cup cooked lentils per 1 lb beef",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Green or brown lentils hold their shape best; season well",
+        "bestFor": ["tacos", "bolognese", "shepherd's pie"]
+      },
+      {
+        "name": "Mushrooms (finely chopped)",
+        "ratio": "1 lb mushrooms per 1 lb beef",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Cremini or portobello work best; sauté until deeply browned",
+        "bestFor": ["burgers", "tacos", "sauces"]
+      },
+      {
+        "name": "Textured vegetable protein (TVP)",
+        "ratio": "1 cup TVP + 1 cup water per 1 lb beef",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Rehydrate with hot water or broth; absorbs seasoning well",
+        "bestFor": ["tacos", "chili", "sloppy joes"]
+      },
+      {
+        "name": "Beyond or Impossible meat",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Closest texture and flavor to real beef; cooks similarly",
+        "bestFor": ["burgers", "tacos", "meatballs"]
+      }
+    ]
+  },
+  {
+    "original": "chicken breast",
+    "substitutes": [
+      {
+        "name": "Tofu (extra-firm, pressed)",
+        "ratio": "14 oz tofu per 1 lb chicken",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free"],
+        "notes": "Press out moisture, cube or slice, then bake or pan-fry",
+        "bestFor": ["stir-fries", "salads", "wraps"]
+      },
+      {
+        "name": "Chickpeas",
+        "ratio": "1 can (15 oz) per 1 lb chicken",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Smash for chicken salad texture or roast for crunch",
+        "bestFor": ["salads", "wraps", "grain bowls"]
+      },
+      {
+        "name": "Jackfruit (young, canned)",
+        "ratio": "1 can (14 oz) per 1 lb chicken",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Shreds like pulled chicken; absorbs marinades and spices well",
+        "bestFor": ["tacos", "sandwiches", "BBQ"]
+      },
+      {
+        "name": "Turkey breast",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free", "low-fat"],
+        "notes": "Very similar lean protein; cooks the same way",
+        "bestFor": ["grilling", "roasting", "salads"]
+      },
+      {
+        "name": "Cauliflower (roasted)",
+        "ratio": "1 head per 1 lb chicken",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free", "paleo", "whole30"],
+        "notes": "Cut into steaks or florets; season generously and roast at high heat",
+        "bestFor": ["grain bowls", "tacos", "curries"]
+      }
+    ]
+  },
+  {
+    "original": "teriyaki sauce",
+    "substitutes": [
+      {
+        "name": "DIY (soy sauce + mirin + brown sugar + garlic + ginger)",
+        "ratio": "1/4 cup soy sauce + 2 tbsp mirin + 1 tbsp brown sugar per 1/3 cup",
+        "tags": ["dairy-free"],
+        "notes": "Simmer until slightly thickened; add cornstarch slurry for glaze consistency",
+        "bestFor": ["marinades", "stir-fries", "glazes"]
+      },
+      {
+        "name": "Coconut aminos + maple syrup + rice vinegar",
+        "ratio": "3 tbsp coconut aminos + 1 tbsp maple syrup + 1 tsp vinegar per 1/4 cup",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free"],
+        "notes": "Best soy-free and gluten-free alternative; slightly sweeter",
+        "bestFor": ["marinades", "stir-fries", "rice bowls"]
+      },
+      {
+        "name": "Hoisin sauce",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Thicker and more savory-sweet; great in a pinch but different flavor profile",
+        "bestFor": ["glazes", "stir-fries", "dipping"]
+      },
+      {
+        "name": "BBQ sauce (Asian-style or mild)",
+        "ratio": "1:1",
+        "tags": ["dairy-free"],
+        "notes": "Not authentic but hits similar sweet-savory notes; check labels for allergens",
+        "bestFor": ["grilling", "dipping", "marinades"]
+      },
+      {
+        "name": "Ponzu + honey",
+        "ratio": "3 tbsp ponzu + 1 tbsp honey per 1/4 cup",
+        "tags": ["dairy-free"],
+        "notes": "Citrusy twist on teriyaki; particularly good with fish",
+        "bestFor": ["seafood", "glazes", "dipping"]
+      }
+    ]
+  },
+  {
+    "original": "cream of mushroom soup",
+    "substitutes": [
+      {
+        "name": "DIY (butter + flour + milk + sautéed mushrooms)",
+        "ratio": "3 tbsp butter + 3 tbsp flour + 1 cup milk + 1/2 cup mushrooms per 1 can",
+        "tags": [],
+        "notes": "Make a roux, whisk in milk, add diced sautéed mushrooms",
+        "bestFor": ["casseroles", "green bean casserole", "pot pies"]
+      },
+      {
+        "name": "Cream of chicken soup",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Different flavor but same texture and function in casseroles",
+        "bestFor": ["casseroles", "pot pies"]
+      },
+      {
+        "name": "Coconut milk + mushrooms (blended)",
+        "ratio": "1 can coconut milk + 1/2 cup mushrooms per 1 can soup",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Blend sautéed mushrooms into coconut milk; thicken with cornstarch",
+        "bestFor": ["casseroles", "soups"]
+      },
+      {
+        "name": "Cashew cream + mushroom broth",
+        "ratio": "1 cup blended cashew cream + 1/2 cup mushroom broth per 1 can",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Rich and creamy; closest dairy-free match",
+        "bestFor": ["casseroles", "stroganoff"]
+      }
+    ]
+  },
+  {
+    "original": "cake flour",
+    "substitutes": [
+      {
+        "name": "All-purpose flour + cornstarch (1 cup minus 2 tbsp AP + 2 tbsp cornstarch)",
+        "ratio": "1:1 after measuring",
+        "tags": [],
+        "notes": "Sift together multiple times for best results; lowers protein content",
+        "bestFor": ["cakes", "cupcakes", "tender baked goods"]
+      },
+      {
+        "name": "All-purpose flour (straight swap)",
+        "ratio": "1:1",
+        "tags": [],
+        "notes": "Results will be slightly denser and chewier but still works",
+        "bestFor": ["cakes", "muffins"]
+      },
+      {
+        "name": "Gluten-free 1:1 baking flour",
+        "ratio": "1:1",
+        "tags": ["gluten-free"],
+        "notes": "Bob's Red Mill or King Arthur; add xanthan gum if not included",
+        "bestFor": ["cakes", "cupcakes"]
+      }
+    ]
+  },
+  {
+    "original": "self-rising flour",
+    "substitutes": [
+      {
+        "name": "All-purpose flour + baking powder + salt (1 cup + 1.5 tsp + 1/4 tsp)",
+        "ratio": "1:1 after mixing",
+        "tags": [],
+        "notes": "Whisk thoroughly to distribute leavening evenly",
+        "bestFor": ["biscuits", "pancakes", "quick breads"]
+      },
+      {
+        "name": "Whole wheat flour + baking powder + salt",
+        "ratio": "1 cup + 1.5 tsp + 1/4 tsp per 1 cup",
+        "tags": [],
+        "notes": "Heavier and nuttier; may need a bit more liquid in recipe",
+        "bestFor": ["muffins", "pancakes"]
+      }
+    ]
+  },
+  {
+    "original": "coconut milk",
+    "substitutes": [
+      {
+        "name": "Cashew cream",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Blend soaked cashews with water; rich and creamy",
+        "bestFor": ["curries", "soups", "smoothies"]
+      },
+      {
+        "name": "Heavy cream (if dairy is OK)",
+        "ratio": "1:1",
+        "tags": ["gluten-free"],
+        "notes": "Similar richness; won't have coconut flavor",
+        "bestFor": ["curries", "soups", "sauces"]
+      },
+      {
+        "name": "Oat milk (full-fat)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Thinner than canned coconut milk; works well in lighter curries",
+        "bestFor": ["smoothies", "soups", "baking"]
+      },
+      {
+        "name": "Almond milk + coconut extract",
+        "ratio": "1:1 + 1/4 tsp extract",
+        "tags": ["vegan", "dairy-free", "soy-free"],
+        "notes": "Adds back the coconut flavor with a nutty base",
+        "bestFor": ["curries", "desserts", "smoothies"]
+      },
+      {
+        "name": "Soy milk (full-fat)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "nut-free", "gluten-free"],
+        "notes": "Good protein match; neutral flavor works in most recipes",
+        "bestFor": ["curries", "baking", "soups"]
+      }
+    ]
+  },
+  {
+    "original": "fresh ginger",
+    "substitutes": [
+      {
+        "name": "Ground ginger",
+        "ratio": "1/4 tsp per 1 tbsp fresh",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "More concentrated and less bright; add at the start of cooking",
+        "bestFor": ["baking", "curries", "marinades"]
+      },
+      {
+        "name": "Ginger paste (tube)",
+        "ratio": "1 tsp paste per 1 tbsp fresh",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Convenient; check labels for added ingredients",
+        "bestFor": ["stir-fries", "curries", "dressings"]
+      },
+      {
+        "name": "Crystallized ginger (minced, sugar rinsed off)",
+        "ratio": "1 tbsp per 1 tbsp fresh",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Sweeter; rinse off sugar coating if using in savory dishes",
+        "bestFor": ["baking", "teas"]
+      },
+      {
+        "name": "Galangal",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Thai relative of ginger; sharper, more piney flavor",
+        "bestFor": ["Thai curries", "soups"]
+      }
+    ]
+  },
+  {
+    "original": "fresh herbs (cilantro)",
+    "substitutes": [
+      {
+        "name": "Fresh parsley + squeeze of lime",
+        "ratio": "1:1 parsley + lime to taste",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Closest visual and textural match; lime adds the brightness",
+        "bestFor": ["tacos", "salsas", "garnishes"]
+      },
+      {
+        "name": "Thai basil",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Different but complementary flavor; works in Asian dishes",
+        "bestFor": ["curries", "pho", "stir-fries"]
+      },
+      {
+        "name": "Culantro (sawtooth herb)",
+        "ratio": "Use half the amount",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Stronger cilantro-like flavor; common in Latin and Caribbean cooking",
+        "bestFor": ["salsas", "soups", "rice dishes"]
+      },
+      {
+        "name": "Dill",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Different flavor profile but works as a fresh herb garnish",
+        "bestFor": ["salads", "fish dishes", "yogurt sauces"]
+      }
+    ]
+  },
+  {
+    "original": "fresh herbs (basil)",
+    "substitutes": [
+      {
+        "name": "Dried basil",
+        "ratio": "1 tsp dried per 1 tbsp fresh",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Less aromatic; add earlier in cooking than you would fresh",
+        "bestFor": ["sauces", "soups", "stews"]
+      },
+      {
+        "name": "Fresh oregano",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "More pungent; works well in Italian and Mediterranean dishes",
+        "bestFor": ["sauces", "pizza", "salads"]
+      },
+      {
+        "name": "Fresh spinach (for pesto)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Milder flavor; combine with a little mint for complexity",
+        "bestFor": ["pesto", "salads"]
+      },
+      {
+        "name": "Arugula",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Peppery kick; works as a raw substitute in salads and on pizza",
+        "bestFor": ["salads", "pizza", "pesto"]
+      }
+    ]
+  },
+  {
+    "original": "fish sauce",
+    "substitutes": [
+      {
+        "name": "Soy sauce + lime juice",
+        "ratio": "1 tbsp soy + squeeze of lime per 1 tbsp fish sauce",
+        "tags": ["dairy-free"],
+        "notes": "Misses the funky depth but provides salt and umami",
+        "bestFor": ["stir-fries", "pad thai", "dressings"]
+      },
+      {
+        "name": "Coconut aminos + rice vinegar",
+        "ratio": "1 tbsp aminos + 1/2 tsp vinegar per 1 tbsp",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free"],
+        "notes": "Best allergy-friendly option; sweeter than fish sauce",
+        "bestFor": ["stir-fries", "curries"]
+      },
+      {
+        "name": "Worcestershire sauce",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free"],
+        "notes": "Contains anchovies so not vegan, but provides similar umami",
+        "bestFor": ["marinades", "soups"]
+      },
+      {
+        "name": "Miso paste (thinned with water)",
+        "ratio": "1 tsp miso + 1 tsp water per 1 tbsp fish sauce",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "White miso is mildest; adds deep salty fermented flavor",
+        "bestFor": ["soups", "dressings", "stir-fries"]
+      },
+      {
+        "name": "Seaweed broth (kombu dashi)",
+        "ratio": "1 tbsp per 1 tbsp fish sauce",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free", "nut-free"],
+        "notes": "Steep dried kombu in hot water; oceanic umami without the fish",
+        "bestFor": ["soups", "ramen", "sauces"]
+      }
+    ]
+  },
+  {
+    "original": "mirin",
+    "substitutes": [
+      {
+        "name": "Rice vinegar + sugar (1 tbsp vinegar + 1/2 tsp sugar per 1 tbsp)",
+        "ratio": "1:1 after mixing",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Provides the sweet-tart balance; no alcohol content",
+        "bestFor": ["stir-fries", "dressings", "glazes"]
+      },
+      {
+        "name": "Dry sherry",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Similar sweetness level with light floral notes",
+        "bestFor": ["sauces", "marinades"]
+      },
+      {
+        "name": "Sweet Marsala wine",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Italian sweet wine; slightly different flavor but works well",
+        "bestFor": ["sauces", "glazes"]
+      },
+      {
+        "name": "White grape juice + rice vinegar",
+        "ratio": "3 tbsp juice + 1 tsp vinegar per 1/4 cup",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Non-alcoholic option; adjust sweetness to taste",
+        "bestFor": ["dressings", "sauces"]
+      }
+    ]
+  },
+  {
+    "original": "oyster sauce",
+    "substitutes": [
+      {
+        "name": "Hoisin sauce + soy sauce",
+        "ratio": "1 tbsp hoisin + 1 tsp soy per 1 tbsp oyster sauce",
+        "tags": ["dairy-free"],
+        "notes": "Sweet and savory; closest easy match in most pantries",
+        "bestFor": ["stir-fries", "noodles"]
+      },
+      {
+        "name": "Mushroom sauce (vegetarian oyster sauce)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Made from shiitake mushrooms; available at Asian grocery stores",
+        "bestFor": ["stir-fries", "noodles", "vegetables"]
+      },
+      {
+        "name": "Soy sauce + sugar + Worcestershire",
+        "ratio": "1 tbsp soy + 1/2 tsp sugar + 1/2 tsp Worcestershire per 1 tbsp",
+        "tags": ["dairy-free"],
+        "notes": "DIY blend that approximates the sweet-salty depth",
+        "bestFor": ["stir-fries", "marinades"]
+      }
+    ]
+  },
+  {
+    "original": "hot sauce",
+    "substitutes": [
+      {
+        "name": "Cayenne pepper + vinegar",
+        "ratio": "Pinch cayenne + splash vinegar per 1 tsp hot sauce",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Mimics the heat and tang; adjust cayenne to your spice tolerance",
+        "bestFor": ["eggs", "tacos", "wings"]
+      },
+      {
+        "name": "Sriracha",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Thicker and more garlicky; slightly sweeter than traditional hot sauce",
+        "bestFor": ["noodles", "stir-fries", "dipping"]
+      },
+      {
+        "name": "Crushed red pepper flakes",
+        "ratio": "1/4 tsp per 1 tsp hot sauce",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Dry heat without the vinegar tang; great when you want heat only",
+        "bestFor": ["pizza", "pasta", "soups"]
+      },
+      {
+        "name": "Gochujang (Korean chili paste)",
+        "ratio": "1/2 tsp per 1 tsp hot sauce",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Fermented, sweet, and spicy; adds complexity beyond plain heat",
+        "bestFor": ["rice bowls", "marinades", "stews"]
+      },
+      {
+        "name": "Harissa paste",
+        "ratio": "1/2 tsp per 1 tsp hot sauce",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "North African chili paste; smoky and complex",
+        "bestFor": ["roasted vegetables", "stews", "dips"]
+      }
+    ]
+  },
+  {
+    "original": "bacon",
+    "substitutes": [
+      {
+        "name": "Turkey bacon",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free", "low-fat"],
+        "notes": "Lower fat; cook until crispy for closest texture",
+        "bestFor": ["breakfast", "sandwiches", "salads"]
+      },
+      {
+        "name": "Coconut bacon (coconut flakes + soy sauce + liquid smoke, baked)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "gluten-free"],
+        "notes": "Sweet, smoky, and crunchy; great as a topping",
+        "bestFor": ["salads", "bowls", "avocado toast"]
+      },
+      {
+        "name": "Tempeh bacon (marinated + pan-fried)",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "nut-free"],
+        "notes": "Slice thin, marinate in soy sauce + maple syrup + liquid smoke",
+        "bestFor": ["BLTs", "breakfast", "bowls"]
+      },
+      {
+        "name": "Mushroom bacon (thin-sliced shiitake, baked crispy)",
+        "ratio": "1:1 by volume",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Toss in oil + smoked paprika and bake at 375°F until crispy",
+        "bestFor": ["salads", "toppings", "sandwiches"]
+      },
+      {
+        "name": "Prosciutto",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "dairy-free"],
+        "notes": "Thinner and more delicate; doesn't need cooking",
+        "bestFor": ["sandwiches", "pizza", "wraps"]
+      }
+    ]
+  },
+  {
+    "original": "saffron",
+    "substitutes": [
+      {
+        "name": "Turmeric",
+        "ratio": "1/4 tsp per pinch of saffron",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Provides the golden color but earthier flavor; most common swap",
+        "bestFor": ["rice", "paella", "soups"]
+      },
+      {
+        "name": "Annatto (achiote) powder",
+        "ratio": "1/4 tsp per pinch of saffron",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Gives similar golden-orange color with mild peppery flavor",
+        "bestFor": ["rice", "stews", "Latin dishes"]
+      },
+      {
+        "name": "Safflower",
+        "ratio": "1 tsp per pinch of saffron",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Sometimes called 'poor man's saffron'; similar color, milder taste",
+        "bestFor": ["rice", "teas"]
+      }
+    ]
+  },
+  {
+    "original": "cinnamon",
+    "substitutes": [
+      {
+        "name": "Allspice",
+        "ratio": "1/4 tsp per 1 tsp cinnamon",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Tastes like a blend of cinnamon, nutmeg, and cloves — use less",
+        "bestFor": ["baking", "oatmeal", "stews"]
+      },
+      {
+        "name": "Nutmeg",
+        "ratio": "1/4 tsp per 1 tsp cinnamon",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Warm and nutty; use sparingly as it's quite potent",
+        "bestFor": ["baking", "custards", "eggnog"]
+      },
+      {
+        "name": "Cardamom",
+        "ratio": "1/2 tsp per 1 tsp cinnamon",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Floral and warm; different but works well in baked goods",
+        "bestFor": ["baking", "coffee", "curries"]
+      },
+      {
+        "name": "Pumpkin pie spice",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Already contains cinnamon plus nutmeg, ginger, cloves",
+        "bestFor": ["baking", "lattes", "oatmeal"]
+      }
+    ]
+  },
+  {
+    "original": "cornmeal",
+    "substitutes": [
+      {
+        "name": "Polenta (coarse ground)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Same ingredient, different grind; slightly coarser texture",
+        "bestFor": ["cornbread", "polenta cakes", "coating"]
+      },
+      {
+        "name": "Grits (ground finer if needed)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Coarser than cornmeal; pulse in blender for finer texture",
+        "bestFor": ["cornbread", "porridge"]
+      },
+      {
+        "name": "Corn flour (masa harina)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Finer grind and treated with lime; slightly different flavor",
+        "bestFor": ["tortillas", "tamales", "breading"]
+      },
+      {
+        "name": "Semolina flour",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Wheat-based so not gluten-free; similar coarse texture",
+        "bestFor": ["breading", "dusting pizza peels"]
+      }
+    ]
+  },
+  {
+    "original": "tomato sauce",
+    "substitutes": [
+      {
+        "name": "Tomato paste + water",
+        "ratio": "2 tbsp paste + 1/4 cup water per 1/2 cup sauce",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Thin paste down to sauce consistency; richer and more concentrated",
+        "bestFor": ["pasta", "pizza", "stews"]
+      },
+      {
+        "name": "Crushed tomatoes (blended smooth)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Blend canned crushed tomatoes for smooth consistency",
+        "bestFor": ["pasta", "soups", "chili"]
+      },
+      {
+        "name": "Fresh tomatoes (blanched and blended)",
+        "ratio": "2 large tomatoes per 1 cup sauce",
+        "tags": ["vegan", "gluten-free", "dairy-free", "paleo", "whole30"],
+        "notes": "Blanch, peel, deseed, then blend; season with salt and garlic",
+        "bestFor": ["pasta", "bruschetta", "sauces"]
+      },
+      {
+        "name": "Roasted red pepper sauce",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Sweeter and smokier than tomato; works as a flavor-different swap",
+        "bestFor": ["pasta", "pizza"]
+      }
+    ]
+  },
+  {
+    "original": "lime juice",
+    "substitutes": [
+      {
+        "name": "Lemon juice",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Closest citrus match; slightly less tart",
+        "bestFor": ["guacamole", "dressings", "cocktails"]
+      },
+      {
+        "name": "White wine vinegar",
+        "ratio": "1/2 tsp per 1 tsp lime juice",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Stronger acidity; use half the amount and adjust",
+        "bestFor": ["ceviche", "dressings"]
+      },
+      {
+        "name": "Orange juice + pinch of zest",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Sweeter and less tart; adds a tropical twist",
+        "bestFor": ["marinades", "cocktails"]
+      },
+      {
+        "name": "Tamarind paste (diluted)",
+        "ratio": "1 tsp paste + water per 1 tbsp lime",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Tart and fruity; authentic in many Thai and Indian dishes",
+        "bestFor": ["curries", "pad thai", "chutneys"]
+      }
+    ]
+  },
+  {
+    "original": "tofu",
+    "substitutes": [
+      {
+        "name": "Chickpeas",
+        "ratio": "1 can (15 oz) per 14 oz tofu",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free", "nut-free"],
+        "notes": "Mash for scrambles or use whole; naturally soy-free protein",
+        "bestFor": ["scrambles", "salads", "curries"]
+      },
+      {
+        "name": "Paneer",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "soy-free", "nut-free"],
+        "notes": "Indian fresh cheese; similar cube shape, higher fat, not vegan",
+        "bestFor": ["curries", "stir-fries", "grilling"]
+      },
+      {
+        "name": "Tempeh",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "nut-free"],
+        "notes": "Fermented soybeans; firmer, nuttier, and more flavorful than tofu",
+        "bestFor": ["stir-fries", "sandwiches", "bowls"]
+      },
+      {
+        "name": "Seitan",
+        "ratio": "1:1",
+        "tags": ["vegan", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Made from wheat gluten; very chewy and meaty, not gluten-free",
+        "bestFor": ["stir-fries", "sandwiches", "grilling"]
+      },
+      {
+        "name": "Cauliflower (roasted)",
+        "ratio": "1 head per 14 oz tofu",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free", "nut-free", "paleo", "whole30"],
+        "notes": "Season well and roast at high heat for best flavor",
+        "bestFor": ["bowls", "curries", "tacos"]
+      }
+    ]
+  },
+  {
+    "original": "miso paste",
+    "substitutes": [
+      {
+        "name": "Soy sauce + a tiny bit of tahini",
+        "ratio": "1 tbsp soy + 1/2 tsp tahini per 1 tbsp miso",
+        "tags": ["dairy-free"],
+        "notes": "Tahini adds the fermented creaminess; adjust salt to taste",
+        "bestFor": ["soups", "dressings", "marinades"]
+      },
+      {
+        "name": "Vegetable bouillon paste",
+        "ratio": "1 tsp per 1 tbsp miso",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Salty and savory; won't have the fermented depth",
+        "bestFor": ["soups", "sauces"]
+      },
+      {
+        "name": "Tahini + salt + lemon",
+        "ratio": "1 tbsp tahini + pinch salt + squeeze lemon per 1 tbsp miso",
+        "tags": ["vegan", "dairy-free", "gluten-free", "soy-free"],
+        "notes": "Best soy-free option; provides similar umami creaminess",
+        "bestFor": ["dressings", "dips"]
+      }
+    ]
+  },
+  {
+    "original": "xanthan gum",
+    "substitutes": [
+      {
+        "name": "Psyllium husk powder",
+        "ratio": "2:1 (use double the amount)",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "All-natural fiber-based thickener; great in gluten-free baking",
+        "bestFor": ["gluten-free bread", "baking"]
+      },
+      {
+        "name": "Guar gum",
+        "ratio": "1.5:1 (use 1.5x the amount)",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Works similarly; slightly less elastic than xanthan",
+        "bestFor": ["baking", "ice cream", "sauces"]
+      },
+      {
+        "name": "Chia seeds (ground) + water",
+        "ratio": "1 tbsp ground chia + 2 tbsp water per 1 tsp xanthan",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Let gel for 5 minutes; provides binding and thickening",
+        "bestFor": ["baking", "smoothies"]
+      },
+      {
+        "name": "Flax meal + water",
+        "ratio": "1 tbsp flax + 2 tbsp water per 1 tsp xanthan",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Let gel for 5 minutes; adds mild nutty flavor",
+        "bestFor": ["baking", "pancakes"]
+      }
+    ]
+  },
+  {
+    "original": "nutritional yeast",
+    "substitutes": [
+      {
+        "name": "Parmesan cheese (grated)",
+        "ratio": "1:1",
+        "tags": ["gluten-free"],
+        "notes": "Not vegan but provides the same salty, cheesy, umami flavor",
+        "bestFor": ["pasta", "popcorn", "salads"]
+      },
+      {
+        "name": "Brewer's yeast",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "More bitter; some brands are debittered — check the label",
+        "bestFor": ["smoothies", "sprinkling"]
+      },
+      {
+        "name": "Soy sauce + garlic powder",
+        "ratio": "1 tsp soy + pinch garlic powder per 1 tbsp nooch",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Provides umami but won't replicate the cheesy flavor",
+        "bestFor": ["sauces", "seasoning"]
+      },
+      {
+        "name": "White miso paste",
+        "ratio": "1 tsp per 1 tbsp nutritional yeast",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Salty, fermented, savory; works well in cheese sauces",
+        "bestFor": ["sauces", "dressings"]
+      }
+    ]
+  },
+  {
+    "original": "tahini",
+    "substitutes": [
+      {
+        "name": "Sunflower seed butter",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "nut-free", "soy-free"],
+        "notes": "Closest flavor and texture match; nut-free and widely available",
+        "bestFor": ["hummus", "dressings", "baking"]
+      },
+      {
+        "name": "Cashew butter",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free"],
+        "notes": "Creamy and mild; adds slight sweetness",
+        "bestFor": ["dressings", "sauces", "dips"]
+      },
+      {
+        "name": "Peanut butter (natural, unsweetened)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free", "soy-free"],
+        "notes": "Strong peanut flavor will come through; works in savory sauces",
+        "bestFor": ["noodle sauces", "dressings"]
+      },
+      {
+        "name": "Greek yogurt (if dairy is OK)",
+        "ratio": "1:1",
+        "tags": ["gluten-free", "soy-free", "nut-free"],
+        "notes": "Provides creaminess and tang; completely different flavor",
+        "bestFor": ["dressings", "dips"]
+      }
+    ]
+  },
+  {
+    "original": "capers",
+    "substitutes": [
+      {
+        "name": "Green olives (chopped)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Briny and tangy; chop finely to mimic caper size",
+        "bestFor": ["sauces", "salads", "pasta"]
+      },
+      {
+        "name": "Pickled pepperoncini (chopped)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Tangy and slightly spicy; adds similar briny punch",
+        "bestFor": ["salads", "sandwiches"]
+      },
+      {
+        "name": "Dill pickle relish",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Provides the vinegary tang; sweeter than capers",
+        "bestFor": ["tartar sauce", "potato salad"]
+      },
+      {
+        "name": "Nasturtium buds (pickled)",
+        "ratio": "1:1",
+        "tags": ["vegan", "gluten-free", "dairy-free"],
+        "notes": "Known as 'poor man's capers'; peppery and tangy",
+        "bestFor": ["garnishes", "salads"]
+      }
+    ]
+  }
+]
