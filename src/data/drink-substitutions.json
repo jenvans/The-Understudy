@@ -86,7 +86,7 @@
       { "name": "Port wine", "ratio": "1:1", "tags": ["wine", "low-abv"], "notes": "Richer and sweeter — ruby port works best.", "bestFor": ["Manhattan riffs", "Spritzers", "Dessert cocktails"] },
       { "name": "Dry vermouth + simple syrup", "ratio": "0.75 oz dry + 0.25 oz syrup per 1 oz sweet", "tags": ["wine", "low-abv"], "notes": "DIY fix when you only have dry vermouth on hand.", "bestFor": ["Manhattans", "Negronis", "Americanos"] },
       { "name": "Amaro (e.g. Montenegro)", "ratio": "1:1", "tags": ["spirit", "bitter"], "notes": "Adds herbal bitterness — a more complex substitute.", "bestFor": ["Black Manhattan", "Negroni riffs", "Stirred drinks"] },
-      { "name": "Red wine reduction + honey", "ratio": "1 oz reduction per 1 oz vermouth", "tags": ["non-alcoholic", "diy"], "notes": "Simmer red wine down by half, sweeten — for NA cocktails.", "bestFor": ["Mocktails", "NA Manhattans", "Cooking"] }
+      { "name": "Red wine reduction + honey", "ratio": "1 oz reduction per 1 oz vermouth", "tags": ["low-abv", "diy"], "notes": "Simmer red wine down by half and sweeten — note: retains some alcohol.", "bestFor": ["Low-ABV cocktails", "Manhattans", "Cooking"] }
     ]
   },
   {

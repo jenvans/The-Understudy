@@ -1,4 +1,35 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { Redis } from '@upstash/redis';
+
+// ── Cache entry shape stored in Redis ──────────────────────────────
+export interface CacheEntry {
+  searchTerm: string;
+  tab: string;
+  filters: string[];
+  substitutes: Record<string, unknown>[];
+  createdAt: string;
+  lastSearched: string;
+  searchCount: number;
+  status: 'pending' | 'approved' | 'rejected';
+}
+
+// ── Redis helpers (lazy-init so env vars are read at runtime) ──────
+let _redis: Redis | null = null;
+function getRedis(): Redis | null {
+  if (_redis) return _redis;
+  const url = process.env.KV_REST_API_URL;
+  const token = process.env.KV_REST_API_TOKEN;
+  if (!url || !token) return null;
+  _redis = new Redis({ url, token });
+  return _redis;
+}
+
+/** Build a deterministic cache key from tab + term + filters */
+function cacheKey(tab: string, term: string, filters: string[]): string {
+  const normTerm = term.toLowerCase().trim();
+  const normFilters = [...filters].sort().join(',');
+  return `ai:${tab}:${normTerm}:${normFilters}`;
+}
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Only allow POST
@@ -18,6 +49,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   // Determine mode: kitchen (default) or bar
   const isBar = tab === 'bar';
+  const activeTab = isBar ? 'bar' : 'kitchen';
 
   // --- Prompt injection protection ---
   // 1. Length limit: no ingredient name needs to be longer than 80 chars
@@ -44,8 +76,35 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     typeof f === 'string' && allowed.has(f),
   );
 
-  const key = process.env.GEMINI_API_KEY;
-  if (!key) {
+  // ── Check Redis cache ──────────────────────────────────────────
+  const redis = getRedis();
+  const key = cacheKey(activeTab, clean, safeFilters);
+
+  if (redis) {
+    try {
+      const cached = await redis.get<CacheEntry>(key);
+      if (cached && Array.isArray(cached.substitutes)) {
+        // Bump search count + last-searched timestamp (fire & forget)
+        redis.set(key, {
+          ...cached,
+          lastSearched: new Date().toISOString(),
+          searchCount: (cached.searchCount ?? 0) + 1,
+        } satisfies CacheEntry).catch(() => {});
+
+        return res.status(200).json({
+          substitutes: cached.substitutes,
+          cached: true,
+        });
+      }
+    } catch (e) {
+      console.error('Redis read error (non-fatal):', e);
+      // Fall through to Gemini
+    }
+  }
+
+  // ── Gemini API call (cache miss) ───────────────────────────────
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) {
     return res.status(500).json({ error: 'API key not configured' });
   }
 
@@ -90,7 +149,7 @@ Return 3-5 substitutes. Be accurate with ratios and tags. Include at least one n
 
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${key}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -135,6 +194,23 @@ Return 3-5 substitutes. Be accurate with ratios and tags. Include at least one n
 
     if (!Array.isArray(substitutes)) {
       return res.status(502).json({ error: 'Unexpected AI response format' });
+    }
+
+    // ── Write to Redis cache (fire & forget) ─────────────────────
+    if (redis) {
+      const entry: CacheEntry = {
+        searchTerm: clean,
+        tab: activeTab,
+        filters: safeFilters,
+        substitutes,
+        createdAt: new Date().toISOString(),
+        lastSearched: new Date().toISOString(),
+        searchCount: 1,
+        status: 'pending',
+      };
+      redis.set(key, entry).catch((e) =>
+        console.error('Redis write error (non-fatal):', e),
+      );
     }
 
     return res.status(200).json({ substitutes });

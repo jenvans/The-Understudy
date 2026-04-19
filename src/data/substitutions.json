@@ -33,7 +33,7 @@
       {
         "name": "Avocado",
         "ratio": "1:1",
-        "tags": ["dairy-free", "vegan", "low-fat"],
+        "tags": ["dairy-free", "vegan"],
         "notes": "Creamy texture replacement; works great in brownies and chocolate bakes",
         "bestFor": ["baking"]
       }
@@ -251,7 +251,7 @@
         "name": "Oat flour",
         "ratio": "1:1",
         "tags": ["gluten-free"],
-        "notes": "Blend rolled oats until fine; soft texture in baked goods",
+        "notes": "Blend rolled oats until fine; use certified gluten-free oats to avoid cross-contamination",
         "bestFor": ["baking", "pancakes"]
       },
       {
@@ -304,7 +304,7 @@
       {
         "name": "Almond meal",
         "ratio": "1:1",
-        "tags": ["gluten-free", "low-fat"],
+        "tags": ["gluten-free"],
         "notes": "Low-carb option; adds nutty flavor",
         "bestFor": ["breading", "casserole toppings"]
       },
@@ -323,14 +323,14 @@
       {
         "name": "Honey",
         "ratio": "3/4 cup per 1 cup (reduce liquid by 2 tbsp)",
-        "tags": ["low-sugar"],
+        "tags": [],
         "notes": "Adds moisture and caramelization; reduce oven temp by 25°F",
         "bestFor": ["baking", "sweetening"]
       },
       {
         "name": "Maple syrup",
         "ratio": "3/4 cup per 1 cup (reduce liquid by 3 tbsp)",
-        "tags": ["vegan", "low-sugar"],
+        "tags": ["vegan"],
         "notes": "Distinctive flavor; works well in fall-themed bakes",
         "bestFor": ["baking", "sweetening", "dressings"]
       },
@@ -832,7 +832,7 @@
       {
         "name": "Garlic-infused oil",
         "ratio": "1/2 tsp per 1 clove",
-        "tags": ["vegan", "gluten-free", "dairy-free", "low-fat"],
+        "tags": ["vegan", "gluten-free", "dairy-free"],
         "notes": "Great for low-FODMAP diets since solids are strained out",
         "bestFor": ["sautéing", "dressings"]
       }
@@ -953,7 +953,7 @@
         "name": "Sweet potato noodles",
         "ratio": "1:1",
         "tags": ["vegan", "gluten-free", "dairy-free", "paleo"],
-        "notes": "Also called glass noodles (dangmyeon); chewy texture",
+        "notes": "Korean dangmyeon made from sweet potato starch; chewy and translucent",
         "bestFor": ["stir-fries", "soups"]
       }
     ]
@@ -1543,9 +1543,9 @@
       },
       {
         "name": "Aquafaba (chickpea brine, whipped)",
-        "ratio": "3 tbsp per 1 egg white",
+        "ratio": "6 tbsp whipped aquafaba per 1/2 cup whipped cream",
         "tags": ["vegan", "dairy-free", "gluten-free", "nut-free", "soy-free"],
-        "notes": "Whips to stiff peaks like egg whites; add sugar for sweetness",
+        "notes": "Whip liquid from canned chickpeas with sugar to stiff peaks; lighter than cream",
         "bestFor": ["meringues", "mousses", "frosting"]
       }
     ]
@@ -1808,8 +1808,8 @@
       {
         "name": "Cloud bread (egg + cream cheese whipped and baked)",
         "ratio": "1:1",
-        "tags": ["gluten-free", "low-fat"],
-        "notes": "Light and fluffy; grain-free but not vegan",
+        "tags": ["gluten-free"],
+        "notes": "Light and fluffy; grain-free and low-carb but not vegan",
         "bestFor": ["sandwiches", "burgers"]
       }
     ]
@@ -2303,8 +2303,8 @@
       {
         "name": "Coconut bacon (coconut flakes + soy sauce + liquid smoke, baked)",
         "ratio": "1:1",
-        "tags": ["vegan", "dairy-free", "gluten-free"],
-        "notes": "Sweet, smoky, and crunchy; great as a topping",
+        "tags": ["vegan", "dairy-free"],
+        "notes": "Sweet, smoky, and crunchy; use tamari instead of soy sauce for gluten-free",
         "bestFor": ["salads", "bowls", "avocado toast"]
       },
       {
