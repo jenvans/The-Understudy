@@ -1,0 +1,344 @@
+[
+  {
+    "original": "triple sec",
+    "substitutes": [
+      { "name": "Cointreau", "ratio": "1:1", "tags": ["spirit"], "notes": "Higher quality orange liqueur — more refined citrus flavor.", "bestFor": ["Margaritas", "Cosmopolitans", "Sidecars"] },
+      { "name": "Grand Marnier", "ratio": "1:1", "tags": ["spirit"], "notes": "Cognac-based orange liqueur adding richer depth.", "bestFor": ["Margaritas", "Sipping cocktails", "Champagne cocktails"] },
+      { "name": "Orange juice + simple syrup", "ratio": "1 oz OJ + 0.5 oz syrup per 1 oz triple sec", "tags": ["non-alcoholic", "citrus"], "notes": "Good mocktail swap — add a pinch of zest for aromatic lift.", "bestFor": ["Mocktails", "Punches", "Virgin Margaritas"] },
+      { "name": "Curaçao", "ratio": "1:1", "tags": ["spirit"], "notes": "Similar orange flavor, blue curaçao adds color to tiki drinks.", "bestFor": ["Tiki drinks", "Blue Lagoons", "Mai Tais"] }
+    ]
+  },
+  {
+    "original": "simple syrup",
+    "substitutes": [
+      { "name": "Honey syrup", "ratio": "1:1 (2 parts honey : 1 part water)", "tags": ["sweetener"], "notes": "Adds floral richness — dissolve honey in warm water first.", "bestFor": ["Whiskey cocktails", "Bee's Knees", "Hot toddies"] },
+      { "name": "Agave nectar", "ratio": "0.75 oz per 1 oz simple syrup", "tags": ["sweetener", "vegan"], "notes": "Slightly sweeter than sugar — pair well with tequila and mezcal.", "bestFor": ["Margaritas", "Tequila drinks", "Palomas"] },
+      { "name": "Maple syrup (thinned)", "ratio": "0.75 oz per 1 oz simple syrup", "tags": ["sweetener"], "notes": "Thin with a splash of warm water; adds autumnal warmth.", "bestFor": ["Old Fashioneds", "Whiskey Sours", "Fall cocktails"] },
+      { "name": "Demerara syrup", "ratio": "1:1", "tags": ["sweetener"], "notes": "Richer, deeper sugar flavor with caramel notes.", "bestFor": ["Old Fashioneds", "Tiki drinks", "Rum cocktails"] }
+    ]
+  },
+  {
+    "original": "angostura bitters",
+    "substitutes": [
+      { "name": "Peychaud's bitters", "ratio": "1:1", "tags": ["bitters"], "notes": "Lighter, more floral and anise-forward — classic in Sazeracs.", "bestFor": ["Sazeracs", "Champagne cocktails", "Juleps"] },
+      { "name": "Orange bitters", "ratio": "1:1", "tags": ["bitters"], "notes": "Citrus-forward alternative that brightens spirit-forward drinks.", "bestFor": ["Martinis", "Old Fashioneds", "Manhattans"] },
+      { "name": "Homemade spiced tincture", "ratio": "1:1", "tags": ["bitters", "diy"], "notes": "Steep cinnamon, cloves, and gentian root in high-proof spirit.", "bestFor": ["Old Fashioneds", "Whiskey cocktails", "Punch"] },
+      { "name": "Aromatic non-alcoholic bitters", "ratio": "1:1", "tags": ["bitters", "non-alcoholic"], "notes": "Brands like All The Bitter make zero-proof versions.", "bestFor": ["Mocktails", "Non-alcoholic Old Fashioneds", "Soda drinks"] }
+    ]
+  },
+  {
+    "original": "bourbon",
+    "substitutes": [
+      { "name": "Rye whiskey", "ratio": "1:1", "tags": ["spirit"], "notes": "Spicier and drier — works great in cocktails that call for bourbon.", "bestFor": ["Old Fashioneds", "Whiskey Sours", "Manhattans"] },
+      { "name": "Scotch (blended)", "ratio": "1:1", "tags": ["spirit"], "notes": "Adds smokiness — use blended Scotch to avoid overpowering.", "bestFor": ["Rob Roys", "Blood and Sand", "Penicillins"] },
+      { "name": "Brandy", "ratio": "1:1", "tags": ["spirit"], "notes": "Fruity and warm — a natural fit in stirred drinks.", "bestFor": ["Sidecars", "Brandy Old Fashioneds", "Hot toddies"] },
+      { "name": "Dark rum", "ratio": "1:1", "tags": ["spirit"], "notes": "Adds molasses richness — unexpected but interesting in sours.", "bestFor": ["Dark 'n' Stormy riffs", "Rum Old Fashioneds", "Punch"] }
+    ]
+  },
+  {
+    "original": "vodka",
+    "substitutes": [
+      { "name": "White rum", "ratio": "1:1", "tags": ["spirit"], "notes": "Adds subtle sweetness and body while staying relatively neutral.", "bestFor": ["Daiquiri-style drinks", "Mojitos", "Espresso Martini riffs"] },
+      { "name": "Gin", "ratio": "1:1", "tags": ["spirit"], "notes": "Adds herbal botanical character — good if you want more flavor.", "bestFor": ["Martinis", "Collins drinks", "Gimlets"] },
+      { "name": "Soju", "ratio": "1:1", "tags": ["spirit", "low-abv"], "notes": "Lower ABV (~17%), lighter and slightly sweet.", "bestFor": ["Soju cocktails", "Highballs", "Light mixed drinks"] },
+      { "name": "Non-alcoholic spirit (e.g. Seedlip)", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Designed to mimic spirit complexity without alcohol.", "bestFor": ["Mocktails", "Spritzers", "NA Martinis"] }
+    ]
+  },
+  {
+    "original": "gin",
+    "substitutes": [
+      { "name": "Vodka", "ratio": "1:1", "tags": ["spirit"], "notes": "Loses botanicals but keeps the spirit backbone.", "bestFor": ["Vodka Martinis", "Collins drinks", "Mules"] },
+      { "name": "Aquavit", "ratio": "1:1", "tags": ["spirit"], "notes": "Caraway and dill notes add Scandinavian botanical character.", "bestFor": ["Negroni riffs", "Aquavit & Tonic", "Savory cocktails"] },
+      { "name": "White tequila (blanco)", "ratio": "1:1", "tags": ["spirit"], "notes": "Vegetal and peppery — surprisingly good in gin cocktail formats.", "bestFor": ["Tequila Negronis", "Tommy's Margaritas", "Tequila & Tonic"] },
+      { "name": "Non-alcoholic botanical spirit", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Brands like Monday or Seedlip replicate juniper-forward flavor.", "bestFor": ["Mocktails", "NA G&Ts", "NA Negronis"] }
+    ]
+  },
+  {
+    "original": "tequila",
+    "substitutes": [
+      { "name": "Mezcal", "ratio": "1:1 (or 50/50 split)", "tags": ["spirit"], "notes": "Smokier cousin — use a 50/50 split for balance.", "bestFor": ["Smoky Margaritas", "Mezcal Negronis", "Palomas"] },
+      { "name": "Cachaça", "ratio": "1:1", "tags": ["spirit"], "notes": "Brazilian sugarcane spirit — funky and tropical.", "bestFor": ["Caipirinhas", "Batidas", "Tropical sours"] },
+      { "name": "Sotol", "ratio": "1:1", "tags": ["spirit"], "notes": "Desert plant spirit from Chihuahua — earthy and herbal.", "bestFor": ["Sipping neat", "Sotol Margaritas", "Desert cocktails"] },
+      { "name": "White rum", "ratio": "1:1", "tags": ["spirit"], "notes": "Lighter and sweeter — loses the agave character.", "bestFor": ["Daiquiris", "Mojitos", "Tropical drinks"] }
+    ]
+  },
+  {
+    "original": "rum (dark)",
+    "substitutes": [
+      { "name": "Bourbon", "ratio": "1:1", "tags": ["spirit"], "notes": "Shares vanilla and caramel notes — good in stirred drinks.", "bestFor": ["Old Fashioned riffs", "Hot toddies", "Punch"] },
+      { "name": "Aged rum (añejo)", "ratio": "1:1", "tags": ["spirit"], "notes": "More refined and smooth — direct upgrade.", "bestFor": ["Sipping", "Mai Tais", "Rum punch"] },
+      { "name": "Brandy", "ratio": "1:1", "tags": ["spirit"], "notes": "Fruity with similar warmth and depth.", "bestFor": ["Brandy cocktails", "Hot drinks", "Egg nog"] },
+      { "name": "Black strap rum", "ratio": "0.5:1 (blend with lighter rum)", "tags": ["spirit"], "notes": "Very intense molasses flavor — a little goes a long way.", "bestFor": ["Tiki drinks", "Dark 'n' Stormy", "Jungle Bird riffs"] }
+    ]
+  },
+  {
+    "original": "rum (white)",
+    "substitutes": [
+      { "name": "Cachaça", "ratio": "1:1", "tags": ["spirit"], "notes": "Slightly funkier — Brazilian sugarcane spirit.", "bestFor": ["Caipirinhas", "Tropical drinks", "Batidas"] },
+      { "name": "Vodka", "ratio": "1:1", "tags": ["spirit"], "notes": "Neutral swap — loses rum's sweetness.", "bestFor": ["Mixed drinks", "Highballs", "Simple cocktails"] },
+      { "name": "Pisco", "ratio": "1:1", "tags": ["spirit"], "notes": "Grape-based Peruvian/Chilean spirit with floral notes.", "bestFor": ["Pisco Sours", "Chilcanos", "Light cocktails"] },
+      { "name": "Non-alcoholic rum (e.g. Ritual)", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Gets the vanilla and tropical notes without alcohol.", "bestFor": ["Mocktails", "Virgin Mojitos", "NA Daiquiris"] }
+    ]
+  },
+  {
+    "original": "sweet vermouth",
+    "substitutes": [
+      { "name": "Port wine", "ratio": "1:1", "tags": ["wine", "low-abv"], "notes": "Richer and sweeter — ruby port works best.", "bestFor": ["Manhattan riffs", "Spritzers", "Dessert cocktails"] },
+      { "name": "Dry vermouth + simple syrup", "ratio": "0.75 oz dry + 0.25 oz syrup per 1 oz sweet", "tags": ["wine", "low-abv"], "notes": "DIY fix when you only have dry vermouth on hand.", "bestFor": ["Manhattans", "Negronis", "Americanos"] },
+      { "name": "Amaro (e.g. Montenegro)", "ratio": "1:1", "tags": ["spirit", "bitter"], "notes": "Adds herbal bitterness — a more complex substitute.", "bestFor": ["Black Manhattan", "Negroni riffs", "Stirred drinks"] },
+      { "name": "Red wine reduction + honey", "ratio": "1 oz reduction per 1 oz vermouth", "tags": ["non-alcoholic", "diy"], "notes": "Simmer red wine down by half, sweeten — for NA cocktails.", "bestFor": ["Mocktails", "NA Manhattans", "Cooking"] }
+    ]
+  },
+  {
+    "original": "dry vermouth",
+    "substitutes": [
+      { "name": "Lillet Blanc", "ratio": "1:1", "tags": ["wine", "low-abv"], "notes": "Sweeter and more floral — James Bond's Vesper uses this.", "bestFor": ["Vesper Martinis", "Spritzers", "Aperitif hour"] },
+      { "name": "Dry white wine", "ratio": "1:1", "tags": ["wine", "low-abv"], "notes": "Sauvignon Blanc or Pinot Grigio work best — simpler flavor.", "bestFor": ["Martini riffs", "Wine spritzers", "Cooking"] },
+      { "name": "Sake (dry)", "ratio": "1:1", "tags": ["low-abv"], "notes": "Clean and delicate — adds umami; try a Saketini.", "bestFor": ["Saketinis", "Asian-inspired cocktails", "Light drinks"] },
+      { "name": "White grape juice + vinegar", "ratio": "1 oz juice + splash vinegar per 1 oz vermouth", "tags": ["non-alcoholic"], "notes": "Gets the tartness and fruitiness for NA drinks.", "bestFor": ["Mocktails", "NA Martinis", "Aperitifs"] }
+    ]
+  },
+  {
+    "original": "campari",
+    "substitutes": [
+      { "name": "Aperol", "ratio": "1:1", "tags": ["spirit", "low-abv", "bitter"], "notes": "Sweeter and less bitter — lower proof too.", "bestFor": ["Aperol Spritz", "Lighter Negronis", "Aperitif drinks"] },
+      { "name": "Cappelletti", "ratio": "1:1", "tags": ["spirit", "bitter"], "notes": "Wine-based aperitivo — lighter body with similar bitter profile.", "bestFor": ["Negronis", "Americanos", "Spritzes"] },
+      { "name": "Select Aperitivo", "ratio": "1:1", "tags": ["spirit", "bitter"], "notes": "Venetian bitter — slightly more herbal than Campari.", "bestFor": ["Select Spritz", "Negronis", "Boulevardiers"] },
+      { "name": "Non-alcoholic bitter (e.g. Ghia)", "ratio": "1:1", "tags": ["non-alcoholic", "bitter"], "notes": "Herbal bitterness without alcohol — great for NA Negronis.", "bestFor": ["Mocktails", "NA Spritzes", "NA Americanos"] }
+    ]
+  },
+  {
+    "original": "lime juice",
+    "substitutes": [
+      { "name": "Lemon juice", "ratio": "1:1", "tags": ["citrus", "non-alcoholic"], "notes": "Slightly less tart — the most common swap.", "bestFor": ["Whiskey Sours", "Collins drinks", "Gimlets"] },
+      { "name": "Grapefruit juice", "ratio": "0.75 oz per 1 oz lime", "tags": ["citrus", "non-alcoholic"], "notes": "More bitter and sweeter — adjust sweetener down.", "bestFor": ["Palomas", "Greyhounds", "Tropical drinks"] },
+      { "name": "White wine vinegar + water", "ratio": "0.25 oz vinegar + 0.75 oz water per 1 oz", "tags": ["non-alcoholic", "diy"], "notes": "Emergency swap — gets the acidity without citrus flavor.", "bestFor": ["Shrub cocktails", "Emergency sours", "Punch"] },
+      { "name": "Yuzu juice", "ratio": "1:1", "tags": ["citrus", "non-alcoholic"], "notes": "Japanese citrus — floral and complex.", "bestFor": ["Japanese-style cocktails", "Yuzu sours", "Highballs"] }
+    ]
+  },
+  {
+    "original": "lemon juice",
+    "substitutes": [
+      { "name": "Lime juice", "ratio": "1:1", "tags": ["citrus", "non-alcoholic"], "notes": "More tart — the most obvious substitution.", "bestFor": ["Daiquiris", "Margaritas", "Gimlets"] },
+      { "name": "Grapefruit juice", "ratio": "0.75 oz per 1 oz lemon", "tags": ["citrus", "non-alcoholic"], "notes": "Sweeter and more bitter — reduce sweetener in the recipe.", "bestFor": ["Palomas", "Salty Dogs", "Tropical cocktails"] },
+      { "name": "Citric acid solution", "ratio": "1 tsp in 1 oz water per 1 oz lemon", "tags": ["non-alcoholic", "diy"], "notes": "Pure sourness — used in 'super juice' techniques.", "bestFor": ["Clarified cocktails", "Batch drinks", "Precision sours"] },
+      { "name": "Sumac water", "ratio": "1:1", "tags": ["non-alcoholic", "diy"], "notes": "Middle Eastern spice steeped in water — fruity tartness.", "bestFor": ["Unique sours", "Spiced cocktails", "Punch"] }
+    ]
+  },
+  {
+    "original": "egg white",
+    "substitutes": [
+      { "name": "Aquafaba (chickpea liquid)", "ratio": "1 oz per 1 egg white", "tags": ["vegan", "non-alcoholic"], "notes": "The #1 vegan swap — froths just like egg white.", "bestFor": ["Whiskey Sours", "Pisco Sours", "Clover Clubs"] },
+      { "name": "Ms. Better's Bitters Miraculous Foamer", "ratio": "2-3 drops per drink", "tags": ["vegan"], "notes": "Commercial foaming agent designed for cocktails.", "bestFor": ["All sours", "Fizzes", "Foam-topped drinks"] },
+      { "name": "Fee Brothers Fee Foam", "ratio": "2-3 drops per drink", "tags": ["vegan"], "notes": "Another reliable commercial cocktail foamer.", "bestFor": ["Sours", "Ramos Gin Fizzes", "Flips"] },
+      { "name": "Butterfly pea flower foam", "ratio": "1 oz infusion per drink", "tags": ["vegan", "non-alcoholic", "diy"], "notes": "Changes color with acid — dramatic presentation.", "bestFor": ["Color-changing cocktails", "Show drinks", "Tiki"] }
+    ]
+  },
+  {
+    "original": "grenadine",
+    "substitutes": [
+      { "name": "Pomegranate juice + simple syrup", "ratio": "0.5 oz juice + 0.5 oz syrup per 1 oz grenadine", "tags": ["non-alcoholic", "diy"], "notes": "Homemade version that tastes worlds better than store-bought.", "bestFor": ["Shirley Temples", "Tequila Sunrises", "Jack Rose"] },
+      { "name": "Raspberry syrup", "ratio": "1:1", "tags": ["non-alcoholic", "sweetener"], "notes": "Similar color and sweetness with a different berry flavor.", "bestFor": ["Clover Clubs", "Fruity cocktails", "Tiki drinks"] },
+      { "name": "Hibiscus syrup", "ratio": "1:1", "tags": ["non-alcoholic", "sweetener", "diy"], "notes": "Gorgeous red color with tart floral sweetness.", "bestFor": ["Margaritas", "Champagne cocktails", "Rum drinks"] },
+      { "name": "Cherry syrup (Luxardo)", "ratio": "1:1", "tags": ["non-alcoholic", "sweetener"], "notes": "Rich maraschino cherry sweetness.", "bestFor": ["Manhattans", "Rob Roys", "Singapore Slings"] }
+    ]
+  },
+  {
+    "original": "club soda",
+    "substitutes": [
+      { "name": "Sparkling mineral water", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Adds slight minerality — Topo Chico is a bartender favorite.", "bestFor": ["Highballs", "Ranch Water", "Spritzers"] },
+      { "name": "Tonic water", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Adds bitter quinine flavor and sweetness — different but good.", "bestFor": ["G&Ts", "Vodka Tonics", "Spritzers"] },
+      { "name": "Ginger beer", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Adds spicy ginger kick — changes the drink's character.", "bestFor": ["Mules", "Dark 'n' Stormy", "Bucks"] },
+      { "name": "Prosecco / sparkling wine", "ratio": "1:1", "tags": ["wine", "low-abv"], "notes": "Adds effervescence plus wine character — perfect for brunch.", "bestFor": ["Aperol Spritz", "French 75", "Mimosa riffs"] }
+    ]
+  },
+  {
+    "original": "tonic water",
+    "substitutes": [
+      { "name": "Club soda + tonic syrup", "ratio": "1 oz syrup + 3 oz soda per 4 oz tonic", "tags": ["non-alcoholic", "diy"], "notes": "Better control of sweetness and quinine level.", "bestFor": ["Custom G&Ts", "Highballs", "Low-sugar drinks"] },
+      { "name": "Fever-Tree or premium tonic", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Less sugar and more natural quinine — big upgrade.", "bestFor": ["G&Ts", "Tonic highballs", "Vodka Tonics"] },
+      { "name": "Bitter lemon soda", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Citrusy and bitter — a classic European alternative.", "bestFor": ["Gin drinks", "Aperitif highballs", "Summer drinks"] },
+      { "name": "Chinotto", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Italian bitter citrus soda — complex and interesting.", "bestFor": ["Italian-style drinks", "Amaro highballs", "Aperitifs"] }
+    ]
+  },
+  {
+    "original": "ginger beer",
+    "substitutes": [
+      { "name": "Ginger ale", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Milder and sweeter — less spice than ginger beer.", "bestFor": ["Whiskey gingers", "Shandy riffs", "Light mixers"] },
+      { "name": "Club soda + ginger syrup", "ratio": "3 oz soda + 0.5 oz syrup per serving", "tags": ["non-alcoholic", "diy"], "notes": "Control the heat level — add cayenne for extra kick.", "bestFor": ["Custom mules", "Artisan cocktails", "Low-sugar options"] },
+      { "name": "Kombucha (ginger flavor)", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Adds funkiness and probiotics — trendy swap.", "bestFor": ["Health-conscious cocktails", "Low-ABV drinks", "Spritzers"] },
+      { "name": "Homemade ginger bug", "ratio": "1:1", "tags": ["non-alcoholic", "diy"], "notes": "Fermented ginger soda — takes 5 days to start but worth it.", "bestFor": ["House mules", "Craft cocktails", "Temperance drinks"] }
+    ]
+  },
+  {
+    "original": "cointreau",
+    "substitutes": [
+      { "name": "Triple sec", "ratio": "1:1", "tags": ["spirit"], "notes": "Budget-friendly orange liqueur — sweeter and less refined.", "bestFor": ["Margaritas", "Long Island riffs", "Party punches"] },
+      { "name": "Grand Marnier", "ratio": "1:1", "tags": ["spirit"], "notes": "Cognac base adds richness — more expensive but more complex.", "bestFor": ["Cadillac Margaritas", "Sidecars", "Champagne cocktails"] },
+      { "name": "Pierre Ferrand Dry Curaçao", "ratio": "1:1", "tags": ["spirit"], "notes": "Bartender favorite — balanced orange flavor without excess sweetness.", "bestFor": ["Mai Tais", "Margaritas", "Tiki drinks"] },
+      { "name": "Orange extract + simple syrup", "ratio": "0.25 tsp extract + 0.75 oz syrup per 1 oz", "tags": ["non-alcoholic", "diy"], "notes": "NA alternative — gets the orange essence.", "bestFor": ["Mocktails", "NA Margaritas", "Punch"] }
+    ]
+  },
+  {
+    "original": "kahlúa",
+    "substitutes": [
+      { "name": "Mr. Black Cold Brew Liqueur", "ratio": "1:1", "tags": ["spirit"], "notes": "Less sweet, more intense coffee flavor — bartender upgrade.", "bestFor": ["Espresso Martinis", "Black Russians", "Coffee cocktails"] },
+      { "name": "DIY coffee liqueur", "ratio": "1:1", "tags": ["spirit", "diy"], "notes": "Cold brew + vodka + sugar + vanilla — easy to make at home.", "bestFor": ["White Russians", "Espresso Martinis", "Dessert cocktails"] },
+      { "name": "Espresso + simple syrup", "ratio": "0.5 oz espresso + 0.5 oz syrup per 1 oz", "tags": ["non-alcoholic", "diy"], "notes": "Non-alcoholic replacement for coffee liqueur.", "bestFor": ["NA Espresso Martinis", "Coffee mocktails", "Tiramisu drinks"] },
+      { "name": "Tia Maria", "ratio": "1:1", "tags": ["spirit"], "notes": "Jamaican coffee liqueur — slightly drier than Kahlúa.", "bestFor": ["Espresso Martinis", "Irish coffee riffs", "B-52s"] }
+    ]
+  },
+  {
+    "original": "absinthe",
+    "substitutes": [
+      { "name": "Pastis (e.g. Ricard)", "ratio": "1:1", "tags": ["spirit"], "notes": "French anise spirit — similar flavor profile, easier to find.", "bestFor": ["Sazeracs", "Corpse Revivers", "Rinses"] },
+      { "name": "Herbsaint", "ratio": "1:1", "tags": ["spirit"], "notes": "New Orleans anise liqueur — the original Sazerac rinse.", "bestFor": ["Sazeracs", "Creole cocktails", "Absinthe rinses"] },
+      { "name": "Pernod", "ratio": "1:1", "tags": ["spirit"], "notes": "Anise-forward French spirit — widely available.", "bestFor": ["Rinses", "French cocktails", "Oyster pairings"] },
+      { "name": "Anise extract + vodka", "ratio": "0.5 tsp extract + 0.25 oz vodka per rinse", "tags": ["diy"], "notes": "Quick DIY for a glass rinse when you have no anise spirits.", "bestFor": ["Emergency rinses", "Sazerac riffs", "Home bar"] }
+    ]
+  },
+  {
+    "original": "maraschino liqueur",
+    "substitutes": [
+      { "name": "Cherry Heering", "ratio": "1:1", "tags": ["spirit"], "notes": "Sweeter and darker cherry flavor — adjust sweetener down.", "bestFor": ["Singapore Slings", "Blood and Sand", "Cherry cocktails"] },
+      { "name": "Kirsch (cherry brandy)", "ratio": "0.75 oz per 1 oz", "tags": ["spirit"], "notes": "Drier and more intense — use slightly less.", "bestFor": ["Aviation riffs", "Cherry cocktails", "European drinks"] },
+      { "name": "Amaretto", "ratio": "0.75 oz per 1 oz maraschino", "tags": ["spirit"], "notes": "Nutty and sweet rather than cherry — different but works.", "bestFor": ["Amaretto Sours", "Disaronno cocktails", "Sweet sours"] },
+      { "name": "Cherry syrup + almond extract", "ratio": "0.5 oz syrup + 2 drops extract per 0.5 oz", "tags": ["non-alcoholic", "diy"], "notes": "Gets the cherry-almond character of Luxardo without booze.", "bestFor": ["Mocktails", "NA Aviations", "Dessert drinks"] }
+    ]
+  },
+  {
+    "original": "amaretto",
+    "substitutes": [
+      { "name": "Orgeat syrup", "ratio": "0.75 oz per 1 oz amaretto", "tags": ["non-alcoholic", "sweetener"], "notes": "Almond syrup without alcohol — the flavor core of amaretto.", "bestFor": ["Mai Tais", "Tiki drinks", "Almond-flavored cocktails"] },
+      { "name": "Frangelico", "ratio": "1:1", "tags": ["spirit"], "notes": "Hazelnut instead of almond — nutty and sweet.", "bestFor": ["Nutty Irishman", "Coffee cocktails", "Dessert drinks"] },
+      { "name": "Almond extract + simple syrup", "ratio": "0.25 tsp extract + 1 oz syrup per 1 oz", "tags": ["non-alcoholic", "diy"], "notes": "Quick non-alcoholic alternative.", "bestFor": ["Mocktails", "NA Sours", "Coffee drinks"] },
+      { "name": "Bourbon + orgeat", "ratio": "0.75 oz bourbon + 0.25 oz orgeat per 1 oz", "tags": ["spirit", "diy"], "notes": "Gets the nutty sweetness with spirit backbone.", "bestFor": ["Amaretto Sour riffs", "Whiskey cocktails", "Complex sours"] }
+    ]
+  },
+  {
+    "original": "elderflower liqueur",
+    "substitutes": [
+      { "name": "Elderflower cordial + vodka", "ratio": "0.5 oz cordial + 0.5 oz vodka per 1 oz", "tags": ["diy"], "notes": "Belvoir or Bottle Green cordials are widely available.", "bestFor": ["Spritzers", "Prosecco cocktails", "Collins drinks"] },
+      { "name": "Lychee liqueur", "ratio": "1:1", "tags": ["spirit"], "notes": "Floral and sweet — different flavor but similar role.", "bestFor": ["Lychee Martinis", "Asian cocktails", "Tropical drinks"] },
+      { "name": "Elderflower syrup (non-alcoholic)", "ratio": "0.75 oz per 1 oz liqueur", "tags": ["non-alcoholic", "sweetener"], "notes": "Most grocery stores carry this — Ikea's is famous.", "bestFor": ["Mocktails", "Spritzers", "Lemonades"] },
+      { "name": "Violet liqueur (Crème de Violette)", "ratio": "0.75 oz per 1 oz", "tags": ["spirit"], "notes": "Different floral note — beautiful in Aviations.", "bestFor": ["Aviations", "Floral cocktails", "Spring drinks"] }
+    ]
+  },
+  {
+    "original": "orgeat",
+    "substitutes": [
+      { "name": "Amaretto", "ratio": "0.75 oz per 1 oz orgeat", "tags": ["spirit"], "notes": "Alcoholic but captures the almond essence.", "bestFor": ["Mai Tai riffs", "Tiki drinks", "Almond cocktails"] },
+      { "name": "Almond milk + simple syrup", "ratio": "0.5 oz each per 1 oz orgeat", "tags": ["non-alcoholic", "vegan"], "notes": "Light and dairy-free — add a drop of orange blossom water.", "bestFor": ["Light tiki drinks", "Mocktails", "Smoothie cocktails"] },
+      { "name": "Falernum", "ratio": "1:1", "tags": ["sweetener"], "notes": "Adds clove and lime along with almond — more complex.", "bestFor": ["Tiki drinks", "Swizzles", "Zombie riffs"] },
+      { "name": "Homemade orgeat", "ratio": "1:1", "tags": ["non-alcoholic", "diy"], "notes": "Toast almonds, blend with sugar water, strain — far superior.", "bestFor": ["Mai Tais", "Japanese cocktails", "Premium tiki"] }
+    ]
+  },
+  {
+    "original": "cream of coconut",
+    "substitutes": [
+      { "name": "Coconut milk + simple syrup", "ratio": "1 oz coconut milk + 0.5 oz syrup per 1 oz", "tags": ["non-alcoholic", "vegan"], "notes": "Lighter and less sweet — good for balanced drinks.", "bestFor": ["Piña Coladas", "Tiki drinks", "Tropical cocktails"] },
+      { "name": "Coconut cream (unsweetened) + sugar", "ratio": "1 oz cream + 0.5 oz sugar per 1 oz Coco López", "tags": ["non-alcoholic", "vegan"], "notes": "DIY version with control over sweetness level.", "bestFor": ["Piña Coladas", "Painkiller", "Batidas"] },
+      { "name": "Orgeat", "ratio": "1:1", "tags": ["non-alcoholic", "sweetener"], "notes": "Nut-based sweetener — different flavor but similar richness.", "bestFor": ["Tiki drinks", "Mai Tai riffs", "Tropical sours"] },
+      { "name": "Condensed milk", "ratio": "0.75 oz per 1 oz cream of coconut", "tags": ["sweetener"], "notes": "Rich and ultra-sweet — no coconut flavor though.", "bestFor": ["Batidas", "Vietnamese coffee drinks", "Creamy cocktails"] }
+    ]
+  },
+  {
+    "original": "mezcal",
+    "substitutes": [
+      { "name": "Tequila (blanco) + smoked salt rim", "ratio": "1:1 tequila", "tags": ["spirit"], "notes": "Agave base without the smoke — smoked salt fakes it.", "bestFor": ["Smoky Margaritas", "Palomas", "Agave cocktails"] },
+      { "name": "Scotch (Islay)", "ratio": "0.5 oz per 1 oz mezcal", "tags": ["spirit"], "notes": "Peated Scotch brings smoke — use sparingly or split with tequila.", "bestFor": ["Penicillin riffs", "Smoky Negronis", "Smoke-forward drinks"] },
+      { "name": "Raicilla", "ratio": "1:1", "tags": ["spirit"], "notes": "Mexican agave spirit from Jalisco — fruity and funky.", "bestFor": ["Agave cocktails", "Tropical drinks", "Sipping"] },
+      { "name": "Bacanora", "ratio": "1:1", "tags": ["spirit"], "notes": "Sonoran agave spirit — lighter smoke than mezcal.", "bestFor": ["Desert cocktails", "Agave drinks", "Margarita riffs"] }
+    ]
+  },
+  {
+    "original": "prosecco",
+    "substitutes": [
+      { "name": "Cava", "ratio": "1:1", "tags": ["wine", "low-abv"], "notes": "Spanish sparkling wine — drier and often more affordable.", "bestFor": ["Mimosas", "Spritzes", "Champagne cocktails"] },
+      { "name": "Crémant", "ratio": "1:1", "tags": ["wine", "low-abv"], "notes": "French sparkling wine outside Champagne — excellent quality.", "bestFor": ["French 75s", "Aperitifs", "Celebrations"] },
+      { "name": "Champagne", "ratio": "1:1", "tags": ["wine", "low-abv"], "notes": "The premium swap — more complex and toasty.", "bestFor": ["French 75s", "Champagne cocktails", "Special occasions"] },
+      { "name": "Sparkling cider (dry)", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Dry apple cider for non-alcoholic sparkling needs.", "bestFor": ["Mocktail Spritzes", "NA Mimosas", "Celebrations"] }
+    ]
+  },
+  {
+    "original": "orange juice",
+    "substitutes": [
+      { "name": "Tangerine juice", "ratio": "1:1", "tags": ["citrus", "non-alcoholic"], "notes": "Sweeter and more aromatic — beautiful in brunch drinks.", "bestFor": ["Mimosas", "Screwdrivers", "Tequila Sunrises"] },
+      { "name": "Mango juice", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Tropical and thicker — great in blended drinks.", "bestFor": ["Tropical cocktails", "Punches", "Batidas"] },
+      { "name": "Pineapple juice", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "More tart and tropical — changes the flavor profile.", "bestFor": ["Tiki drinks", "Piña Coladas", "Rum punch"] },
+      { "name": "Passion fruit juice", "ratio": "0.75 oz per 1 oz OJ", "tags": ["non-alcoholic"], "notes": "Tart and exotic — adds complexity.", "bestFor": ["Passion fruit Martinis", "Tropical drinks", "Hurricane riffs"] }
+    ]
+  },
+  {
+    "original": "cranberry juice",
+    "substitutes": [
+      { "name": "Pomegranate juice", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Deeper and richer — gorgeous color.", "bestFor": ["Cosmopolitan riffs", "Pomegranate Martinis", "Holiday cocktails"] },
+      { "name": "Hibiscus tea (cooled)", "ratio": "1:1", "tags": ["non-alcoholic", "diy"], "notes": "Tart and floral with similar ruby color.", "bestFor": ["Mocktails", "Punches", "Tea cocktails"] },
+      { "name": "Tart cherry juice", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Similar tartness with a deeper cherry flavor.", "bestFor": ["Sour cocktails", "Punches", "Whiskey drinks"] },
+      { "name": "Red grape juice + lemon", "ratio": "0.75 oz grape + 0.25 oz lemon per 1 oz", "tags": ["non-alcoholic", "diy"], "notes": "Gets the tartness and color in a pinch.", "bestFor": ["Emergency Cosmos", "Punches", "Mixed drinks"] }
+    ]
+  },
+  {
+    "original": "pineapple juice",
+    "substitutes": [
+      { "name": "Mango juice", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Tropical and sweet — thicker texture.", "bestFor": ["Tiki drinks", "Tropical cocktails", "Batidas"] },
+      { "name": "Passion fruit purée", "ratio": "0.75 oz per 1 oz", "tags": ["non-alcoholic"], "notes": "More tart and exotic — iconic in Porn Star Martinis.", "bestFor": ["Passion fruit cocktails", "Tiki drinks", "Tropical sours"] },
+      { "name": "Guava juice", "ratio": "1:1", "tags": ["non-alcoholic"], "notes": "Pink, floral, and tropical — beautiful in rum drinks.", "bestFor": ["Guava cocktails", "Tiki drinks", "Punches"] },
+      { "name": "White grape juice + citric acid", "ratio": "1 oz + pinch acid per 1 oz pineapple", "tags": ["non-alcoholic", "diy"], "notes": "Lighter but gets the sweet-tart balance.", "bestFor": ["Punches", "Batch drinks", "Simple mixers"] }
+    ]
+  },
+  {
+    "original": "irish cream",
+    "substitutes": [
+      { "name": "DIY cream liqueur", "ratio": "1:1", "tags": ["diy"], "notes": "Heavy cream + whiskey + cocoa + condensed milk — lasts 2 weeks.", "bestFor": ["Irish coffee", "B-52s", "Dessert cocktails"] },
+      { "name": "RumChata", "ratio": "1:1", "tags": ["spirit"], "notes": "Cinnamon-forward cream liqueur — horchata-inspired.", "bestFor": ["Cinnamon Toast Crunch shots", "Coffee drinks", "Dessert cocktails"] },
+      { "name": "Amarula", "ratio": "1:1", "tags": ["spirit"], "notes": "South African marula fruit cream liqueur — exotic and smooth.", "bestFor": ["Sipping", "Dessert cocktails", "African-inspired drinks"] },
+      { "name": "Oat milk + whiskey + chocolate syrup", "ratio": "0.75 oz oat milk + 0.5 oz whiskey + 0.25 oz syrup", "tags": ["vegan", "diy"], "notes": "Dairy-free alternative that captures the spirit.", "bestFor": ["Vegan cocktails", "Coffee drinks", "Dairy-free dessert drinks"] }
+    ]
+  },
+  {
+    "original": "chartreuse",
+    "substitutes": [
+      { "name": "Genepy", "ratio": "1:1", "tags": ["spirit"], "notes": "Alpine herbal liqueur — lighter but in the same family.", "bestFor": ["Last Word riffs", "Alpine cocktails", "Digestifs"] },
+      { "name": "Strega", "ratio": "1:1", "tags": ["spirit"], "notes": "Italian herbal liqueur with saffron — similar complexity.", "bestFor": ["Italian cocktails", "Herbal drinks", "Digestifs"] },
+      { "name": "Dolin Genepy des Alpes", "ratio": "1:1", "tags": ["spirit"], "notes": "Lighter and more approachable than Chartreuse.", "bestFor": ["Highballs", "Spritzers", "After-dinner drinks"] },
+      { "name": "Green herbal tea + vodka + honey", "ratio": "1 oz tea + 0.5 oz vodka + 0.25 oz honey per 1 oz", "tags": ["diy"], "notes": "A rough approximation — won't match the 130 herbs but gets close.", "bestFor": ["Emergency swaps", "Home bar experiments", "Cocktail riffs"] }
+    ]
+  },
+  {
+    "original": "falernum",
+    "substitutes": [
+      { "name": "Orgeat + lime + allspice dram", "ratio": "0.5 oz orgeat + splash lime + dash allspice", "tags": ["diy"], "notes": "Combines the key flavor components of falernum.", "bestFor": ["Tiki drinks", "Swizzles", "Rum cocktails"] },
+      { "name": "Velvet Falernum", "ratio": "1:1", "tags": ["spirit"], "notes": "Low-proof commercial version — the most common brand.", "bestFor": ["Corn 'n' Oil", "Swizzles", "Zombie"] },
+      { "name": "Ginger syrup + lime + clove", "ratio": "0.75 oz ginger syrup + squeeze lime per 1 oz", "tags": ["non-alcoholic", "diy"], "notes": "Gets the spice profile for non-alcoholic versions.", "bestFor": ["Mocktail tiki", "Spiced drinks", "Punches"] },
+      { "name": "Allspice dram + simple syrup", "ratio": "0.25 oz dram + 0.5 oz syrup per 1 oz", "tags": ["diy"], "notes": "Captures the warm spice backbone.", "bestFor": ["Fall cocktails", "Tiki riffs", "Hot drinks"] }
+    ]
+  },
+  {
+    "original": "scotch",
+    "substitutes": [
+      { "name": "Japanese whisky", "ratio": "1:1", "tags": ["spirit"], "notes": "Similar production methods — often more delicate and refined.", "bestFor": ["Highballs", "Mizuwari", "Whisky cocktails"] },
+      { "name": "Bourbon", "ratio": "1:1", "tags": ["spirit"], "notes": "Sweeter and less smoky — works in cockatils calling for blended Scotch.", "bestFor": ["Old Fashioneds", "Whiskey Sours", "Highballs"] },
+      { "name": "Irish whiskey", "ratio": "1:1", "tags": ["spirit"], "notes": "Triple-distilled, smoother — lighter flavor profile.", "bestFor": ["Irish coffee", "Whiskey Sours", "Highballs"] },
+      { "name": "Rye whiskey", "ratio": "1:1", "tags": ["spirit"], "notes": "Spicier kick — excellent in stirred cocktails.", "bestFor": ["Manhattans", "Old Fashioneds", "Sazeracs"] }
+    ]
+  },
+  {
+    "original": "cognac",
+    "substitutes": [
+      { "name": "Brandy (VS or VSOP)", "ratio": "1:1", "tags": ["spirit"], "notes": "Broader category — any decent grape brandy works.", "bestFor": ["Sidecars", "Brandy Alexander", "Punch"] },
+      { "name": "Armagnac", "ratio": "1:1", "tags": ["spirit"], "notes": "Gascony cousin of Cognac — richer and more rustic.", "bestFor": ["French cocktails", "Stirred drinks", "Sipping"] },
+      { "name": "Calvados (apple brandy)", "ratio": "1:1", "tags": ["spirit"], "notes": "Apple-based French brandy — adds fruit character.", "bestFor": ["Jack Rose", "French cocktails", "Fall drinks"] },
+      { "name": "Pisco", "ratio": "1:1", "tags": ["spirit"], "notes": "Grape-based South American spirit — lighter but works.", "bestFor": ["Pisco Sours", "Light cocktails", "Citrus drinks"] }
+    ]
+  },
+  {
+    "original": "sambuca",
+    "substitutes": [
+      { "name": "Ouzo", "ratio": "1:1", "tags": ["spirit"], "notes": "Greek anise spirit — drier than sambuca.", "bestFor": ["Anise cocktails", "Mediterranean drinks", "Digestifs"] },
+      { "name": "Pastis", "ratio": "1:1", "tags": ["spirit"], "notes": "French anise spirit — herbal and aromatic.", "bestFor": ["French cocktails", "Pastis & water", "Anise drinks"] },
+      { "name": "Anisette", "ratio": "1:1", "tags": ["spirit"], "notes": "Sweeter anise liqueur — closest match.", "bestFor": ["Coffee drinks", "Shots", "Anise cocktails"] },
+      { "name": "Arak", "ratio": "1:1", "tags": ["spirit"], "notes": "Middle Eastern anise spirit — traditionally served with water.", "bestFor": ["Middle Eastern cocktails", "Anise drinks", "Arak & water"] }
+    ]
+  }
+]

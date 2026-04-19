@@ -25,7 +25,7 @@ export default function EmptyState({ type, message }: EmptyStateProps) {
       {/* Text */}
       {type === 'initial' && (
         <p className="text-gray-500 dark:text-gray-400 text-lg">
-          Search an ingredient to get started
+          {message || 'Search an ingredient to get started'}
         </p>
       )}
 

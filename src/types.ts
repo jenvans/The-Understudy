@@ -1,5 +1,7 @@
 export type Source = 'local' | 'ai';
 
+export type AppTab = 'kitchen' | 'bar';
+
 export interface Substitute {
   name: string;
   ratio: string;
@@ -23,6 +25,15 @@ export type DietaryFilter =
   | "nut-free"
   | "egg-free"
   | "soy-free";
+
+export type DrinkFilter =
+  | "non-alcoholic"
+  | "spirit"
+  | "low-abv"
+  | "bitter"
+  | "citrus"
+  | "sweetener"
+  | "vegan";
 
 export interface SearchResult {
   original: string;

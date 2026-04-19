@@ -1,14 +1,15 @@
-import type { Substitute, DietaryFilter } from '../types';
+import type { Substitute, AppTab } from '../types';
 
 export async function fetchAISubstitutions(
   searchTerm: string,
-  filters: DietaryFilter[],
+  filters: string[],
+  tab: AppTab,
   signal?: AbortSignal,
 ): Promise<Substitute[]> {
   const response = await fetch('/api/gemini', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ searchTerm, filters }),
+    body: JSON.stringify({ searchTerm, filters, tab }),
     signal,
   });
 

@@ -1,9 +1,12 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import type { DietaryFilter, SortOption, Substitute } from './types';
+import type { AppTab, DietaryFilter, DrinkFilter, SortOption, Substitute } from './types';
 import { useSubstitutions } from './hooks/useSubstitutions';
+import { useDrinkSubstitutions } from './hooks/useDrinkSubstitutions';
 import { fetchAISubstitutions } from './api/gemini';
 import SearchBar from './components/SearchBar';
+import TabBar from './components/TabBar';
 import FilterPills from './components/FilterPills';
+import DrinkFilterPills from './components/DrinkFilterPills';
 import ActiveFilterTags from './components/ActiveFilterTags';
 import ResultCard from './components/ResultCard';
 import EmptyState from './components/EmptyState';
@@ -33,8 +36,10 @@ function useDarkMode() {
 
 export default function App() {
   const [dark, setDark] = useDarkMode();
+  const [tab, setTab] = useState<AppTab>('kitchen');
   const [search, setSearch] = useState('');
-  const [filters, setFilters] = useState<DietaryFilter[]>([]);
+  const [kitchenFilters, setKitchenFilters] = useState<DietaryFilter[]>([]);
+  const [drinkFilters, setDrinkFilters] = useState<DrinkFilter[]>([]);
   const [sort, setSort] = useState<SortOption>('best-match');
 
   // AI state
@@ -42,11 +47,26 @@ export default function App() {
   const [aiLoading, setAiLoading] = useState(false);
   const [aiError, setAiError] = useState<string | null>(null);
   const [aiSearchedTerm, setAiSearchedTerm] = useState('');
+  const [aiSearchedTab, setAiSearchedTab] = useState<AppTab>('kitchen');
   const abortRef = useRef<AbortController | null>(null);
 
-  const result = useSubstitutions(search, filters, sort);
+  // Active filters for current tab
+  const activeFilters = tab === 'kitchen' ? kitchenFilters : drinkFilters;
 
-  // Reset AI results when search changes
+  const kitchenResult = useSubstitutions(
+    tab === 'kitchen' ? search : '',
+    kitchenFilters,
+    sort,
+  );
+  const drinkResult = useDrinkSubstitutions(
+    tab === 'bar' ? search : '',
+    drinkFilters,
+    sort,
+  );
+
+  const result = tab === 'kitchen' ? kitchenResult : drinkResult;
+
+  // Reset AI results when search or tab changes
   useEffect(() => {
     setAiResults([]);
     setAiError(null);
@@ -55,7 +75,7 @@ export default function App() {
       abortRef.current.abort();
       abortRef.current = null;
     }
-  }, [search]);
+  }, [search, tab]);
 
   const handleAISearch = useCallback(async () => {
     const term = search.trim();
@@ -71,35 +91,60 @@ export default function App() {
     setAiResults([]);
 
     try {
-      const subs = await fetchAISubstitutions(term, filters, controller.signal);
+      const subs = await fetchAISubstitutions(term, activeFilters, tab, controller.signal);
       // Tag each result as AI-sourced
       const tagged = subs.map((s) => ({ ...s, source: 'ai' as const }));
       setAiResults(tagged);
       setAiSearchedTerm(term);
+      setAiSearchedTab(tab);
     } catch (err: unknown) {
       if (err instanceof DOMException && err.name === 'AbortError') return;
       setAiError(err instanceof Error ? err.message : 'AI search failed — try again');
     } finally {
       setAiLoading(false);
     }
-  }, [search, filters]);
+  }, [search, activeFilters, tab]);
 
-  const toggleFilter = (f: DietaryFilter) => {
-    setFilters((prev) =>
+  const handleTabChange = (newTab: AppTab) => {
+    setTab(newTab);
+    setSearch('');
+    setSort('best-match');
+  };
+
+  const toggleKitchenFilter = (f: DietaryFilter) => {
+    setKitchenFilters((prev) =>
       prev.includes(f) ? prev.filter((x) => x !== f) : [...prev, f],
     );
   };
 
-  const removeFilter = (f: DietaryFilter) => {
-    setFilters((prev) => prev.filter((x) => x !== f));
+  const toggleDrinkFilter = (f: DrinkFilter) => {
+    setDrinkFilters((prev) =>
+      prev.includes(f) ? prev.filter((x) => x !== f) : [...prev, f],
+    );
+  };
+
+  const removeFilter = (f: string) => {
+    if (tab === 'kitchen') {
+      setKitchenFilters((prev) => prev.filter((x) => x !== f));
+    } else {
+      setDrinkFilters((prev) => prev.filter((x) => x !== f));
+    }
   };
 
   // Determine what to render
   const hasSearch = search.trim().length > 0;
   const hasResults = result.substitutes.length > 0;
   const hasMessage = !!result.message;
-  const hasAiResults = aiResults.length > 0 && aiSearchedTerm === search.trim();
+  const hasAiResults = aiResults.length > 0 && aiSearchedTerm === search.trim() && aiSearchedTab === tab;
   const showAiPrompt = hasSearch && !hasResults && !aiLoading && !hasAiResults;
+
+  const placeholder = tab === 'kitchen'
+    ? 'Search an ingredient (e.g. butter, eggs, milk)...'
+    : 'Search a drink ingredient (e.g. bourbon, triple sec, lime juice)...';
+
+  const emptyInitialMsg = tab === 'kitchen'
+    ? 'Search an ingredient to get started'
+    : 'Search a drink ingredient to get started';
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-[#1a1a1a] transition-colors">
@@ -141,14 +186,21 @@ export default function App() {
 
       {/* Main content */}
       <main className="max-w-3xl mx-auto px-4 py-8 space-y-6">
-        {/* Search */}
-        <SearchBar value={search} onChange={setSearch} />
+        {/* Tab bar */}
+        <TabBar active={tab} onChange={handleTabChange} />
 
-        {/* Filters */}
-        <FilterPills active={filters} onToggle={toggleFilter} />
+        {/* Search */}
+        <SearchBar value={search} onChange={setSearch} placeholder={placeholder} />
+
+        {/* Filters — swap based on tab */}
+        {tab === 'kitchen' ? (
+          <FilterPills active={kitchenFilters} onToggle={toggleKitchenFilter} />
+        ) : (
+          <DrinkFilterPills active={drinkFilters} onToggle={toggleDrinkFilter} />
+        )}
 
         {/* Active filter tags */}
-        <ActiveFilterTags filters={filters} onRemove={removeFilter} />
+        <ActiveFilterTags filters={activeFilters} onRemove={removeFilter} />
 
         {/* Sort dropdown */}
         {hasSearch && hasResults && (
@@ -193,7 +245,7 @@ export default function App() {
 
           {/* Empty states */}
           {!hasResults && !hasSearch && (
-            <EmptyState type="initial" />
+            <EmptyState type="initial" message={emptyInitialMsg} />
           )}
 
           {!hasResults && hasSearch && hasMessage && !hasAiResults && (

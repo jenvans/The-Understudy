@@ -1,9 +1,10 @@
 interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
+  placeholder?: string;
 }
 
-export default function SearchBar({ value, onChange }: SearchBarProps) {
+export default function SearchBar({ value, onChange, placeholder }: SearchBarProps) {
   return (
     <div className="relative w-full max-w-xl mx-auto">
       {/* Search icon */}
@@ -29,7 +30,7 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
         type="text"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Search an ingredient (e.g. butter, eggs, milk)..."
+        placeholder={placeholder ?? "Search an ingredient (e.g. butter, eggs, milk)..."}
         aria-label="Search for an ingredient substitution"
         className="w-full pl-12 pr-12 py-3.5 rounded-xl border border-gray-200 dark:border-gray-700
                    bg-white dark:bg-[#252525] text-gray-900 dark:text-gray-100

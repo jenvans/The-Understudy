@@ -1,8 +1,6 @@
-import type { DietaryFilter } from '../types';
-
 interface ActiveFilterTagsProps {
-  filters: DietaryFilter[];
-  onRemove: (filter: DietaryFilter) => void;
+  filters: string[];
+  onRemove: (filter: string) => void;
 }
 
 export default function ActiveFilterTags({ filters, onRemove }: ActiveFilterTagsProps) {
